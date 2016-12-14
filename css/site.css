@@ -1,0 +1,60 @@
+.logo {
+    margin-bottom: 4rem;
+}
+
+/* Logo size for mobiles */
+.logo img {
+    width: 200px;
+}
+
+/* Logo size for larger displays */
+@media (min-width: 400px) {
+    .logo img {
+	width: 250px;
+    }
+}
+
+/* Logo size for even larger displays */
+@media (min-width: 700px) {
+    .logo img {
+	width: 300px;
+    }
+}
+
+.request-assistance {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.header {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.container {
+    max-width: 800px;
+}
+
+ul li {
+    list-style-position: outside;
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.questions {
+    text-align: center;
+    font-size: 2rem;
+}
