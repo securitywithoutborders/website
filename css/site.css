@@ -14,14 +14,14 @@ body {
 /* Logo size for larger displays */
 @media (min-width: 400px) {
     .logo img {
-	width: 250px;
+	width: 300px;
     }
 }
 
 /* Logo size for even larger displays */
 @media (min-width: 700px) {
     .logo img {
-	width: 300px;
+	width: 400px;
     }
 }
 
