@@ -60,12 +60,13 @@ li {
 
 .questions {
     font-size: 2rem;
+    text-align: center;
 }
 
 .justify {
     text-align: justify;
 }
 
-.columns h4 {
-    font-size: 1.5rem;
+h4.smaller {
+    font-size: 2rem;
 }
