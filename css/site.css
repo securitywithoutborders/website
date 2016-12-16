@@ -14,14 +14,14 @@ body {
 /* Logo size for larger displays */
 @media (min-width: 400px) {
     .logo img {
-	width: 300px;
+        width: 300px;
     }
 }
 
 /* Logo size for even larger displays */
 @media (min-width: 700px) {
     .logo img {
-	width: 400px;
+        width: 400px;
     }
 }
 
@@ -32,17 +32,17 @@ body {
 }
 
 .header {
-  margin-top: 6rem;
-  text-align: center;
+    margin-top: 6rem;
+    text-align: center;
 }
 
 h1 {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .footer {
-  margin-top: 1rem;
-  text-align: center;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .container {
