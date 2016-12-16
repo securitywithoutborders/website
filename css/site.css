@@ -59,6 +59,13 @@ li {
 }
 
 .questions {
-    text-align: justify;
     font-size: 2rem;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.columns h4 {
+    font-size: 1.5rem;
 }
