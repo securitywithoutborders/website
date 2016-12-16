@@ -2,8 +2,16 @@ body {
     background-color: #e1e1e1;
 }
 
+.header {
+    margin-top: 0;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
 .logo {
-    margin-bottom: 4rem;
 }
 
 /* Logo size for mobiles */
@@ -32,11 +40,6 @@ body {
     background-color: red;
 }
 
-.header {
-    margin-top: 6rem;
-    text-align: center;
-}
-
 h1 {
     margin-bottom: 3rem;
 }
@@ -59,15 +62,11 @@ li {
     margin-bottom: 0.5rem;
 }
 
-.questions {
+.intro {
     font-size: 2rem;
     text-align: center;
 }
 
-.justify {
+p {
     text-align: justify;
-}
-
-h4.smaller {
-    font-size: 2rem;
 }
