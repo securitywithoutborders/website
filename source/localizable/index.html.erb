@@ -1,4 +1,19 @@
 <section class="header">
+  <nav class="languages">
+    <ul>
+      <% trimmed_locales.each do |locale| %>
+        <% if locale.to_s == I18n.locale.to_s %>
+          <li><%= locale %></li>
+        <% else %>
+          <li>
+            <a href="/<%= if locale != "en" then locale else end %>">
+              <%= locale %>
+            </a>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </nav>
     <div class="logo"><a href="/" title="Security Without Borders"><img src="images/logo.png" alt="SWB"></a></div>
 </section>
 

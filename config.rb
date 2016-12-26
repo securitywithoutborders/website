@@ -21,6 +21,9 @@ page '/*.txt', layout: false
 # Internationalization
 activate :i18n, :mount_at_root => :en
 
+# Easy
+activate :autoprefixer
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -31,11 +34,18 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def trimmed_locales
+    locales_list.each do |locale|
+      locale.slice! ".yml"
+    end
+  end
+  def locales_list
+    Dir.glob("locales/*.yml").each do |file|
+      file.slice! "locales/"
+    end
+  end
+end
 
 # Build-specific configuration
 configure :build do

@@ -1,6 +1,7 @@
 Setup:
 ```
 $ gem install middleman
+$ bundle install
 ```
 
 Run locally:

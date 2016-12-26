@@ -7,6 +7,7 @@ body {
 }
 
 .header {
+    position: relative;
     margin-top: 0;
     text-align: center;
     background-color: #1e1e1e;
@@ -59,7 +60,7 @@ h1 {
 }
 
 ul li {
-    list-style-position: outside;
+    list-style-type: outside;
     margin-left: 2rem;
 }
 
@@ -74,4 +75,20 @@ li {
 
 p {
     text-align: justify;
+}
+
+.languages {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.languages ul {
+  display: flex;
+}
+
+.languages ul li {
+  list-style-type: none;
 }
