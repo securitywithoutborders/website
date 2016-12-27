@@ -1,7 +1,7 @@
 ---
 de:
   site_name: "Security Without Borders"
-  follow_us: "Follow us on Twitter at <a href=\"https://twitter.com/swborders\">@swborders</a>"
+  follow_us: "Follow us on Twitter at %{address}"
   request_assistance: "Request Assistance"
   intro_paragraphs: "In this modern digital age, those who expose corruption,
     fight racism, and fight for justice and democracy face increasing threats
@@ -31,6 +31,5 @@ de:
     global society."
   hacker_p3: "If you would like to join the discussion and volunteer, the
     best place to start is to subscribe to our <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\">public mailing list</a>."
-  footer: "For general inquiries, please send an email to
-    <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>.
+  footer: "For general inquiries, please send an email to %{address}.
     For assistance requests, please use the more secure link at the top of the page."
