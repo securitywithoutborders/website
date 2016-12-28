@@ -1,35 +1,29 @@
 ---
 de:
   site_name: "Security Without Borders"
-  follow_us: "Follow us on Twitter at %{address}"
-  request_assistance: "Request Assistance"
-  intro_paragraphs: "In this modern digital age, those who expose corruption,
-    fight racism, and fight for justice and democracy face increasing threats
-    and persecution online.<br /><b>Security Without Borders is an open
-    collective of hackers and cyber security professionals</b> who
-    volunteer with assisting journalists, human rights defenders,
-    and non-profit organizations with cyber security issues."
-  activist_headline: "Are you an activist, journalist, or human rights defender?"
-  activist_p1: "Security Without Borders is here to help. We can assist with web
-    security assessments, conduct breach investigations and analysis, and
-    generally act as an advisor in questions pertaining to cyber security. As
-    security services are often expensive to come by, SWB offers these services
-    free to organizations and people fighting against human rights abuse,
-    racism, and other injustices."
-  activist_p2: "Please get in touch with us by clicking the
-    <i>Request Assistance</i> button above, and filling out the subsequent
-    form. We will try to get back to you as promptly as possibly. However,
-    please notice that we are a volunteer network, and resources and available
-    people might at times be scarce."
-  hacker_headline: "Are you a hacker or a computer security professional?"
-  hacker_p1: "If you have the time and desire to use your skills for good, we
-    invite you to consider joining us."
-  hacker_p2: "We are a group of penetration testers, malware analysts,
-    developers, engineers, system administrators, hackers. Some of us work in
-    corporate security, some of us in academia, and some others in human rights
-    organizations. We want to dedicate some of our time to the betterment of
-    global society."
-  hacker_p3: "If you would like to join the discussion and volunteer, the
-    best place to start is to subscribe to our <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\">public mailing list</a>."
-  footer: "For general inquiries, please send an email to %{address}.
-    For assistance requests, please use the more secure link at the top of the page."
+  follow_us: "Folg uns auf Twitter %{address}"
+  request_assistance: "Unterstützung Anfragen"
+  intro_paragraphs: "Im digitalen Zeiltalter sind diejenigen, die Korruption aufdecken, gegen Rassismus kämpfen 
+    und sich für Demokratie und Gerechtigkeit einsetzen, zunehmend Drohungen und Verfolgung im Netz ausgesetzt.
+    <br /><b>Security Without Borders ist ein offenes Kollektiv von HackernInnen und Cyber-Sicherheits ExpertenInnen</b>,
+    die JournalistInnen, MenschenrechtlerInnen und Non-Profit-Organisationen in Fragen der Cybersicherheit unterstützen."
+  activist_headline: "Bist du AktivistIn, JournalistIn oder MenschenrechtlerIn?
+  activist_p1: "Security Without Borders ist hier um dir zu helfen. Wir unterstützen bei Einschätzungen der Web-Sicherheit,
+    führen Untersuchungen zur Datensicherheitsverletzung durch, und fungieren als genereller Ratgeber in 
+    allen Cyber-Sicherheits Fragen. Leistungen im Bereich Cyber-Sicherheit sind meist sehr kostspielig. Wir möchten einen 
+    Beitrag leisten, und bieten unsere Dienste kostenfrei für alle Organisationen oder Einzelpersonen an, 
+    die gegen Menschenrechtsverletzungen, Rassismus oder andere Ungerechtigkeiten kämpfen."
+  activist_p2: "Setz dich mit uns in Verbingung, indem du den 
+    <i>Unterstützung Anfragen</i> Button klickst und das Formular ausfüllst.
+    Wir werden uns so schnell wie möglich bei dir melden. Da wir jedoch ein Freiwilligennetzwerk sind,
+    kann es sein, dass wir zeitweise stark ausgelastet sind."
+  hacker_headline: "Bist du HackerIn oder Cyber-Sicherheits ExpertIn?"
+  hacker_p1: "Wenn du Zeit und Lust hast, deine Fähigkeiten für Gutes einzusetzen, laden wir dich ein, mitzuhelfen." 
+  hacker_p2: "Wir sind PenetrationstesterInnen, Malware-ForscherInnen, EntwicklerInnen, 
+    System AdministratorInnen und HackerInnen. Einige von uns arbeiten in Unternehmenssicherheit, andere in der 
+    Wissenschaft oder in Menschenrechtsorganisationen. Wir möchten einen Teil unserer Zeit investieren, um einen Beitrag zur
+    Verbesserung der globalen Gesellschaft zu leisten."
+  hacker_p3: "Wenn du zur Diskussion beitragen oder aktiv helfen möchtest, melde dich am besten zuerst für unseren 
+    <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\"Newsletter</a>. an"
+  footer: "Für generelle Anfragen, sende bitte eine Email an %{address}.
+    Für Unterstützungsanfragen benutz bitte den speziell gesicherten Link oben auf der Seite. 
