@@ -1,7 +1,7 @@
 ---
 de:
   site_name: "Security Without Borders"
-  follow_us: "Folg uns auf Twitter %{address}"
+  follow_us: "Folg uns auf Twitter %{twitter}"
   request_assistance: "Unterstützung Anfragen"
   intro_paragraphs: "Im digitalen Zeiltalter sind diejenigen, die Korruption aufdecken, gegen Rassismus kämpfen
     und sich für Demokratie und Gerechtigkeit einsetzen, zunehmend Drohungen und Verfolgung im Netz ausgesetzt.
@@ -25,5 +25,5 @@ de:
     Verbesserung der globalen Gesellschaft zu leisten."
   hacker_p3: "Wenn du zur Diskussion beitragen oder aktiv helfen möchtest, melde dich am besten zuerst für unseren
     <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\"Newsletter</a> an."
-  footer: "Für generelle Anfragen, sende bitte eine Email an %{address}.
+  footer: "Für generelle Anfragen, sende bitte eine Email an <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>.
     Für Unterstützungsanfragen benutz bitte den speziell gesicherten Link oben auf der Seite."
