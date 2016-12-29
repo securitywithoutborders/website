@@ -19,7 +19,7 @@ page '/*.txt', layout: false
 # General configuration
 
 # Internationalization
-activate :i18n, :mount_at_root => :en
+activate :i18n, :mount_at_root => false
 
 # Easy
 activate :autoprefixer
@@ -35,6 +35,12 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def home_url
+    "/#{I18n.locale}"
+  end
+  def contact_form_url
+    "//localhost:5000/#{I18n.locale}/contact/form"
+  end
   def trimmed_locales
     locales_list.each do |locale|
       locale.slice! ".yml"

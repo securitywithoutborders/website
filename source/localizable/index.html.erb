@@ -6,7 +6,7 @@
           <li><%= locale %></li>
         <% else %>
           <li>
-            <a href="/<%= if locale != "en" then locale else end %>">
+            <a href="/<%= locale %>">
               <%= locale %>
             </a>
           </li>
@@ -14,7 +14,7 @@
       <% end %>
     </ul>
   </nav>
-    <div class="logo"><a href="/" title="Security Without Borders"><img src="/images/logo.png" alt="SWB"></a></div>
+    <div class="logo"><a href="<%= home_url %>" title="Security Without Borders"><img src="/images/logo.png" alt="SWB"></a></div>
 </section>
 
 <!-- Primary Page Layout
@@ -25,7 +25,7 @@
             <p>
                 <%= t(:intro_paragraphs) %>
             </p>
-            <a class="button button-primary request-assistance" href="/<%= I18n.locale %>/contact/">
+            <a class="button button-primary request-assistance" href="<%= "#{home_url}/contact.html" %>">
                 <%= t(:request_assistance) %>
             </a>
         </div>
