@@ -6,7 +6,7 @@
           <li><%= locale %></li>
         <% else %>
           <li>
-            <a href="/<%= locale %>">
+            <a href="/<%= if locale != "en" then locale else end %>">
               <%= locale %>
             </a>
           </li>
@@ -25,7 +25,7 @@
             <p>
                 <%= t(:intro_paragraphs) %>
             </p>
-            <a class="button button-primary request-assistance" href="<%= "#{home_url}/contact.html" %>">
+            <a class="button button-primary request-assistance" href="<%= "#{home_url}contact.html" %>">
                 <%= t(:request_assistance) %>
             </a>
         </div>

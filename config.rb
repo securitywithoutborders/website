@@ -19,7 +19,7 @@ page '/*.txt', layout: false
 # General configuration
 
 # Internationalization
-activate :i18n, :mount_at_root => false
+activate :i18n, :mount_at_root => :en
 
 # Easy
 activate :autoprefixer
@@ -36,9 +36,9 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   def home_url
-    "/#{I18n.locale}"
+    if I18n.locale.to_s != 'en' then "/#{I18n.locale}/" else "/" end
   end
-  def contact_form_url
+  def contact_form_iframe_url
     "//localhost:5000/#{I18n.locale}/contact/form"
   end
   def trimmed_locales
