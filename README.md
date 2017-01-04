@@ -12,10 +12,10 @@ gem install rb-inotify
 
 ### Run locally:
 ```
-$ middleman server
+$ bundle exec middleman server
 ```
 
 ### Build static site:
 ```
-$ middleman build
+$ bundle exec middleman build
 ```
