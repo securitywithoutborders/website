@@ -39,11 +39,19 @@ body {
 }
 
 .request-assistance {
+    max-width: 100%;
     margin-bottom: 3rem;
-    font-size: 2.2rem;
     height: 60px;
     line-height: 60px;
     margin-bottom: 4rem;
+
+    @media (max-width: 499px) {
+      font-size: 1.6rem;
+    }
+
+    @media (min-width: 500px) {
+      font-size: 2.2rem;
+    }
 }
 
 h1 {
@@ -98,4 +106,3 @@ p {
   min-height: 800px;
   display: block;
 }
-
