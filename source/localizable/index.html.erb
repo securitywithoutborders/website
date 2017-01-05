@@ -1,0 +1,70 @@
+<section class="header">
+  <nav class="languages">
+    <ul>
+      <% trimmed_locales.each do |locale| %>
+        <% if locale.to_s == I18n.locale.to_s %>
+          <li><%= locale %></li>
+        <% else %>
+          <li>
+            <a href="/<%= if locale != "en" then locale else end %>">
+              <%= locale %>
+            </a>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </nav>
+    <div class="logo"><a href="<%= home_url %>" title="Security Without Borders"><img src="/images/logo.png" alt="SWB"></a></div>
+</section>
+
+<!-- Primary Page Layout
+ –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+    <div class="row">
+        <div class="twelve columns intro">
+            <p>
+                <%= t(:intro_paragraphs) %>
+            </p>
+            <a class="button button-primary request-assistance" href="<%= "#{home_url}contact.html" %>">
+                <%= t(:request_assistance) %>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="six columns">
+            <h4 class="smaller"><%= t(:activist_headline) %></h4>
+            <p>
+                <%= t(:activist_p1) %>
+            </p>
+            <p>
+                <%= t(:activist_p2) %>
+            </p>
+        </div>
+        <div class="six columns">
+            <h4 class="smaller"><%= t(:hacker_headline) %></h4>
+            <p>
+                <%= t(:hacker_p1) %>
+            </p>
+            <p>
+                <%= t(:hacker_p2) %>
+            </p>
+            <p>
+                <%= t(:hacker_p3) %>
+            </p>
+            <p>
+                <%= t(:follow_us, twitter: "<a href=\"https://twitter.com/swborders\">@swborders</a>") %>
+            </p>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="one column">
+            <p><!-- filler --></p>
+        </div>
+        <div class="ten columns">
+            <p>
+                <%= t(:footer) %>
+            </p>
+        </div>
+    </div>
+</div>

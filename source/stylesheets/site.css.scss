@@ -1,8 +1,13 @@
+@charset "utf-8";
+@import "normalize";
+@import "skeleton";
+
 body {
     background-color: #e1e1e1;
 }
 
 .header {
+    position: relative;
     margin-top: 0;
     text-align: center;
     background-color: #1e1e1e;
@@ -34,11 +39,19 @@ body {
 }
 
 .request-assistance {
+    max-width: 100%;
     margin-bottom: 3rem;
-    font-size: 2.2rem;
     height: 60px;
     line-height: 60px;
     margin-bottom: 4rem;
+
+    @media (max-width: 499px) {
+      font-size: 1.6rem;
+    }
+
+    @media (min-width: 500px) {
+      font-size: 2.2rem;
+    }
 }
 
 h1 {
@@ -70,4 +83,26 @@ li {
 
 p {
     text-align: justify;
+}
+
+.languages {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+.languages ul {
+  display: flex;
+}
+
+.languages ul li {
+  list-style-type: none;
+}
+
+.c-form {
+  min-width: 100%;
+  min-height: 800px;
+  display: block;
 }
