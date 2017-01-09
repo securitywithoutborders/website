@@ -39,7 +39,7 @@ helpers do
     if I18n.locale.to_s != 'en' then "/#{I18n.locale}/" else "/" end
   end
   def contact_form_iframe_url
-    "//localhost:5000/#{I18n.locale}/contact/form"
+    ENV.fetch("SWB_CONTACT_FORM_URL", "//localhost:5000/%{locale}/contact/form") % { locale: I18n.locale }
   end
   def trimmed_locales
     locales_list.each do |locale|
