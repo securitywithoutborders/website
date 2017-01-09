@@ -1,0 +1,3 @@
+#!/bin/bash
+export SWB_CONTACT_FORM_URL="http://localhost:5000/${locale}/contact/form"
+
