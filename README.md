@@ -12,7 +12,6 @@ There are several ways to contribute to SWB at this point.
 * translate the web-page to different languages
 * tell people about the initiative
 * join the [Mailing list](https://lists.securitywithoutborders.org/mailman/listinfo/swb-public)
-* join the [Mattermost Chat server](https://chat.securitywithoutborders.org)
 
 #Deployment
 
