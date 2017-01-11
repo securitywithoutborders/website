@@ -4,7 +4,7 @@ Security Without Borders is here to help. We can assist with web security assess
 
 ## Articles
 
-*[Transmission 1 by the SWB Core team](https://medium.com/security-without-borders/transmission-1-7eaae7bc8caf#.q3p196yjm)
+[Transmission 1 by the SWB Core team](https://medium.com/security-without-borders/transmission-1-7eaae7bc8caf#.q3p196yjm)
 
 ##Contribute
 
