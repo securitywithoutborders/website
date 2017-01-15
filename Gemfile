@@ -16,3 +16,9 @@ gem 'middleman-autoprefixer'
 
 # For linux folks, need a JS runtime
 gem 'therubyracer'
+
+# Nice Sass style linting in your editor, if you enable it. Stops bad CSS.
+# https://github.com/brigade/scss-lint/
+group :development do
+  gem 'scss_lint', require: false
+end
