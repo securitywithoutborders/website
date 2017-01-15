@@ -85,6 +85,15 @@ li {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.navigation ul,
+.navigation li {
+  margin-bottom: 0;
+}
+
+.navigation__inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
