@@ -1,83 +1,83 @@
-@charset "utf-8";
-@import "normalize";
-@import "fonts";
-@import "skeleton";
+@charset 'utf-8';
+@import 'normalize';
+@import 'fonts';
+@import 'skeleton';
 
 body {
-    background-color: #e1e1e1;
+  background-color: #e1e1e1;
 }
 
 .header {
-    position: relative;
-    margin-top: 0;
-    text-align: center;
-    background-color: #1e1e1e;
-    margin-bottom: 3rem;
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  background-color: #1e1e1e;
+  margin-bottom: 3rem;
 }
 
 .logo {
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 0 2rem;
 }
 
 /* Logo size for mobiles */
 .logo img {
-    width: 200px;
+  width: 200px;
 }
 
 /* Logo size for larger displays */
 @media (min-width: 400px) {
-    .logo img {
-        width: 300px;
-    }
+  .logo img {
+    width: 300px;
+  }
 }
 
 /* Logo size for even larger displays */
 @media (min-width: 700px) {
-    .logo img {
-        width: 400px;
-    }
+  .logo img {
+    width: 400px;
+  }
 }
 
 .request-assistance {
-    max-width: 100%;
-    margin-bottom: 3rem;
-    height: 60px;
-    line-height: 60px;
-    margin-bottom: 4rem;
+  max-width: 100%;
+  margin-bottom: 3rem;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 4rem;
 
-    @media (max-width: 499px) {
-      font-size: 1.6rem;
-    }
+  @media (max-width: 499px) {
+    font-size: 1.6rem;
+  }
 
-    @media (min-width: 500px) {
-      font-size: 2.2rem;
-    }
+  @media (min-width: 500px) {
+    font-size: 2.2rem;
+  }
 }
 
 h1 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .footer {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .container {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 ul li {
-    list-style-position: outside;
-    margin-left: 2rem;
+  list-style-position: outside;
+  margin-left: 2rem;
 }
 
 li {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .intro {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .navigation {
@@ -101,7 +101,7 @@ li {
 }
 
 .languages {
-  color: white;
+  color: #fff;
   width: 100%;
 }
 
