@@ -12,12 +12,11 @@ body {
     margin-top: 0;
     text-align: center;
     background-color: #1e1e1e;
-    padding-top: 5rem;
-    padding-bottom: 2.5rem;
     margin-bottom: 3rem;
 }
 
 .logo {
+  padding: 4rem 0 2rem 0;
 }
 
 /* Logo size for mobiles */
@@ -79,27 +78,37 @@ li {
 
 .intro {
     font-size: 2rem;
-    text-align: center;
 }
 
-p {
-    text-align: justify;
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .languages {
   color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
   width: 100%;
 }
 
-.languages ul {
+.languages,
+.links {
   display: flex;
+  width: auto;
 }
 
-.languages ul li {
+.languages li,
+.links li {
   list-style-type: none;
+}
+
+.links {
+  margin-right: 2rem;
 }
 
 .c-form {
@@ -110,4 +119,10 @@ p {
 
 .image--core-team {
   max-height: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.center-contents {
+  text-align: center;
 }

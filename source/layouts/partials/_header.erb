@@ -1,18 +1,28 @@
 <section class="header">
-  <nav class="languages">
-    <ul>
-      <% trimmed_locales.each do |locale| %>
-        <% if locale.to_s == I18n.locale.to_s %>
-          <li><%= locale %></li>
-        <% else %>
-          <li>
-            <a href="/<%= if locale != "en" then locale else end %>">
-              <%= locale %>
-            </a>
-          </li>
+  <div class="container">
+    <nav class="navigation">
+      <ul class="languages">
+        <% trimmed_locales.each do |locale| %>
+          <% if locale.to_s == I18n.locale.to_s %>
+            <li><%= locale %></li>
+          <% else %>
+            <li>
+              <a href="/<%= if locale != "en" then locale else end %>">
+                <%= locale %>
+              </a>
+            </li>
+          <% end %>
         <% end %>
-      <% end %>
-    </ul>
-  </nav>
+      </ul>
+      <ul class="links">
+        <li>
+          <a href="<%= home_url %>core-team.html">
+            Core Team
+          </a>
+        </li>
+      </ul>
+    </nav>
+
     <div class="logo"><a href="<%= home_url %>" title="Security Without Borders"><img src="/images/logo.png" alt="SWB"></a></div>
+  </div>
 </section>
