@@ -13,6 +13,7 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
 gem 'middleman-autoprefixer'
+gem 'middleman-minify-html'
 
 # For linux folks, need a JS runtime
 gem 'therubyracer'
