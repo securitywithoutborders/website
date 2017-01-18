@@ -13,6 +13,13 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
 gem 'middleman-autoprefixer'
+gem 'middleman-minify-html'
 
 # For linux folks, need a JS runtime
 gem 'therubyracer'
+
+# Nice Sass style linting in your editor, if you enable it. Stops bad CSS.
+# https://github.com/brigade/scss-lint/
+group :development do
+  gem 'scss_lint', require: false
+end
