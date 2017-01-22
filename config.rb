@@ -58,7 +58,22 @@ configure :build do
   # Minify CSS on build
   activate :minify_css
   activate :minify_html
-
+  
   # Minify Javascript on build
   # activate :minify_javascript
+
+  # Generate favicons
+  activate :favicon_maker do |f|
+    # template_dir doesn't work in 4.0 as per https://github.com/follmann/middleman-favicon-maker/issues/42
+    # f.template_dir  = 'source/images'
+    f.icons = {
+      # Hack: instead specify directory in filename
+      "images/_favicon_template.svg" => [
+        # Only generate small icons since the original is of too low
+        # quality for higher resolutions.
+        { icon: "favicon.png", size: "16x16" },
+        { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
+      ]
+    }
+  end
 end

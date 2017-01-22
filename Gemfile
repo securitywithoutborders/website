@@ -23,3 +23,7 @@ gem 'therubyracer'
 group :development do
   gem 'scss_lint', require: false
 end
+
+# For favicon generation
+# https://github.com/follmann/middleman-favicon-maker
+gem "middleman-favicon-maker", "~> 4.0"
