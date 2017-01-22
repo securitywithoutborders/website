@@ -1,5 +1,5 @@
 ---
-en:
+fr:
   site_name: "Sécurité sans Frontières"
   follow_us: "Suivez-nous sur Twitter : %{twitter}"
   request_assistance: "Demander de l'aide"
@@ -35,7 +35,7 @@ en:
     Nous consacrons une partie de notre temps libre à la création d'un monde 
     meilleur."
   hacker_p3: "Si vous souhaitez participer aux discussions et vous porter 
-    volontaire, vous pouvez commencer par rejoindre notre"
+    volontaire, vous pouvez commencer par rejoindre notre
     <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\">mailing list</a>."
   footer: "Pour les questions d'ordre général, contactez <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>.
     Les relations avec la presse se font par le biais de l'adresse <a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>.
