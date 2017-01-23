@@ -2,41 +2,41 @@
 fr:
   site_name: "Sécurité sans Frontières"
   follow_us: "Suivez-nous sur Twitter : %{twitter}"
-  request_assistance: "Demander de l'aide"
-  intro_paragraphs: "Depuis l'avènement de l'ère digitale, ceux qui dénoncent
+  request_assistance: "Demander de l’aide"
+  intro_paragraphs: "Depuis l’avènement de l’ère digitale, ceux qui dénoncent
     la corruption, luttent contre le racisme et défendent la justice et la
-    démocratie sur Internet sont plus que jamais menacés.<br /><b>Sécurité sans
+    démocratie sur Internet sont plus que jamais menacés.<br />Sécurité sans
     Frontières est un collectif de professionnels de la sécurité informatique et de
-    hackers</b> qui se portent volontaires pour prêter assistance aux journalistes,
-    défenseurs des droits de l'homme et organisations à but non-lucratif dans le 
+    hackers qui se portent volontaires pour prêter assistance aux journalistes,
+    défenseurs des droits de l’homme et organisations à but non-lucratif dans le
     domaine de la cybersécurité."
   activist_headline: "Vous êtes un activiste, un journaliste ou un défenseur des
-    droits de l'homme ?"
+    droits de l’homme ?"
   activist_p1: "Sécurité sans Frontières est à votre service. Nous pouvons vous
     assister en conduisant un audit de sécurité de votre site internet, en menant
-    des investigations en cas d'attaque, et de manière générale en vous 
-    conseillant sur les problématiques liées à la cybersécurité. Les prestations de 
+    des investigations en cas d’attaque, et de manière générale en vous
+    conseillant sur les problématiques liées à la cybersécurité. Les prestations de
     sécurisation étant le plus souvent coûteuses, tout individu ou organisation qui
-    lutte contre les violations des droits de l'homme, le racisme et autres 
+    lutte contre les violations des droits de l’homme, le racisme et autres
     injustices peut bénéficier du soutien de SSF à titre gracieux."
-  activist_p2: "Contactez nouz en remplissant le formulaire accessible via le 
-    bouton <i>Demander de l'aide</i> ci-dessus, et nous reviendrons vers vous
-    dans les meilleurs délais. Gardez cependant à l'esprit que nous sommes
-    constitués exclusivement de volontaires, et que nos ressources peuvent à ce 
+  activist_p2: "Contactez-nous en remplissant le formulaire accessible via le
+    bouton <i>Demander de l’aide</i> ci-dessus, et nous reviendrons vers vous
+    dans les meilleurs délais. Gardez cependant à l’esprit que nous sommes
+    constitués exclusivement de volontaires, et que nos ressources peuvent à ce
     titre être ponctuellement limitées."
-  hacker_headline: "Vous êtes un hacker ou un professionnel de la sécurité 
+  hacker_headline: "Vous êtes un hacker ou un professionnel de la sécurité
     informatique ?"
-  hacker_p1: "Si vous avez le temps et l'envie de mettre vos talents au service
-    d'une cause noble, nous vous invitons à nous rejoindre."
+  hacker_p1: "Si vous avez le temps et l’envie de mettre vos talents au service
+    d’une cause noble, nous vous invitons à nous rejoindre."
   hacker_p2: "Nous sommes un collectif de pentesteurs, analystes de malwares,
     développeurs, ingénieurs, administrateurs système et hackers. Certains
-    d'entre nous travaillent dans des entreprises du domaine, d'autres viennent
-    du monde académique ou encore d'organismes de défense des droits de l'homme.
-    Nous consacrons une partie de notre temps libre à la création d'un monde 
+    d’entre nous travaillent dans des entreprises du domaine, d’autres viennent
+    du monde académique ou encore d’organismes de défense des droits de l’homme.
+    Nous consacrons une partie de notre temps libre à la création d’un monde
     meilleur."
-  hacker_p3: "Si vous souhaitez participer aux discussions et vous porter 
+  hacker_p3: "Si vous souhaitez participer aux discussions et vous porter
     volontaire, vous pouvez commencer par rejoindre notre
     <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\">mailing list</a>."
-  footer: "Pour les questions d'ordre général, contactez <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>.
-    Les relations avec la presse se font par le biais de l'adresse <a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>.
-    Pour toute demande d'assistance, merci d'utiliser le lien sécurisé qui se trouve en haut de cette page."
+  footer: "Pour les questions d’ordre général, contactez <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>.
+    Les relations avec la presse se font par le biais de l’adresse <a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>.
+    Pour toute demande d’assistance, merci d’utiliser le lien sécurisé qui se trouve en haut de cette page."
