@@ -2,6 +2,7 @@
 gr:
   site_name: "Security Without Borders"
   follow_us: "Ακολουθήστε μας στο Twitter %{twitter}"
+  subscribe: ""
   request_assistance: "ΖΗΤΗΣΤΕ ΒΟΗΘΕΙΑ"
   core_team: "Core Team"
   intro_paragraphs: "Στη σύγχρονη ψηφιακή εποχή, όσοι αποκαλύπτουν περιστατικά διαφθοράς, καταπολεμούν τον ρατσισμό, και αγωνίζονται για τη δημοκρατία και τη
