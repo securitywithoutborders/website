@@ -2,6 +2,7 @@
 en:
   site_name: "Security Without Borders"
   follow_us: "Follow us on Twitter at %{twitter}"
+  subscribe: "or subscribe to our <a href=\"%{newsletter}\">newsletter</a>."
   request_assistance: "Request Assistance"
   core_team: "Core Team"
   intro_paragraphs: "In this modern digital age, those who expose corruption,
@@ -32,10 +33,10 @@ en:
     corporate security, some of us in academia, and some others in human rights
     organizations. We want to dedicate some of our time to the betterment of
     global society."
-  hacker_p3: "If you would like to join the discussion and volunteer, the
-    best place to start is to subscribe to our <a href=\"https://lists.securitywithoutborders.org/mailman/listinfo/swb-public\">public mailing list</a>."
-  hacker_p4: "Security Without Borders are committed to equality and diversity, and 
+  hacker_p3: "Security Without Borders are committed to equality and diversity, and 
     value your offer of time and effort regardless of who you are. We actively work
     to not discriminate and to build a diverse and inclusive community around our mission."
-  footer: "For general inquiries, please send an email to <a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>. For press inquiries, contact <a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>.
+  hacker_p4: "If you would like to join the discussion and volunteer, the
+    best place to start is to subscribe to our <a href=\"%{list}\">public mailing list</a>."
+  footer: "For general inquiries, please send an email to %{info}. For press inquiries, contact %{press}.
     For assistance requests, please use the more secure link at the top of the page."
