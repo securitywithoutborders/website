@@ -1,0 +1,45 @@
+---
+no:
+  site_name: "Sikkerhet Uten Grenser"
+  follow_us: "Følg oss på vår Twitter %{twitter}"
+  subscribe: "eller meld deg på vårt <a href=\"%{newsletter}\">nyhetsbrev</a>."
+  request_assistance: "Be om hjelp"
+  core_team: "Kjerneteamet"
+  intro_paragraphs: "I denne moderne digitale alder, står de som avdekker
+    korrupsjon, bekjemper rasisme, og kjemper for rettferdighet og demokrati
+    ovenfor økende trusler og forfølgelse på nettet.<br /><b>Sikkerhet Uten
+    Grenser er et åpent kollektiv av hackere og cybersikkerhetseksperter</b> som
+    frivillig hjelper journalister, menneskerettighetsforkjemper og ideele
+    organisasjoner med cyber sikkerhetsproblemer og -spørsmål."
+  activist_headline: "Er du en aktivist, journalist eller en
+    menneskerettighetsforkjemper?"
+  activist_p1: "Sikkerhet Uten Grenser er her for å hjelpe. Vi kan assistere deg
+    med sikkerhetsevalueringer, utføring av innbruddsetterforskning og analyse,
+    og kan generelt fungere som en rådgiver rundt cybersikkerhet. Siden
+    sikkerhetstjenester ofte er dyre, tilbyr Sikkerhet Uten Grenser disse
+    tjenestene gratis til organisasjoner og mennesker som kjemper kampen imot
+    brudd på menneskerettighetene, rasisme, og andre urettferdigheter."
+  activist_p2: "Vennligst ta kontakt ved å klikke på <i>Be om hjelp</i> knappen
+    over, og ved å fylle ut det påfølgende skjemaet. Vi vil prøve å komme
+    tilbake til deg så fort som mulig. Ta hensyn til at vi er et frivillig
+    nettverk, så antall ressurser og tilgjengelige personer kan til tider være
+    knappe."
+  activist_p2: "Please get in touch with us by clicking the
+    <i>Request Assistance</i> button above, and filling out the subsequent
+    form. We will try to get back to you as promptly as possibly. However,
+    please notice that we are a volunteer network, and resources and available
+    people might at times be scarce."
+  hacker_headline: "Er du en hacker eller jobber du med datasikkerhet?"
+  hacker_p1: "Hvis du har tiden og lysten til å bruke evnene dine til noe godt,
+    ønsker vi gjerne at du vurderer å bli med oss."
+  hacker_p2: "Vi er en gruppe bestående av penetrasjonstestere,
+    skadevareanalytikere, utviklere, ingeniører, system administratorer,
+    hackere. Noen av oss jobber innen bedriftssikkerhet, noen i akademia, og
+    noen i menneskerettighetsorganisasjoner. Vi ønsker å dedikere litt av vår
+    tid til å forbedre det globale samfunnet."
+  hacker_p3: "Hvis du har lyst til å delta i diskusjoner og delta, så er det
+    beste stedet å starte å abbonere på vår
+    <a href=\"%{list}\">offentlige mail liste</a>."
+  footer: "For generelle forespørsler, vennligst send en mail til %{info}. For
+    pressespørsmål, kontakt %{press}. For forespørsler om hjelp, vennligst bruk
+    den mer sikre lenken på toppen av siden."
