@@ -24,6 +24,7 @@
     tilbake til deg så fort som mulig. Ta hensyn til at vi er et frivillig
     nettverk, så antall ressurser og tilgjengelige personer kan til tider være
     knappe."
+  activist_p3: ""
   hacker_headline: "Er du en hacker eller jobber du med datasikkerhet?"
   hacker_p1: "Hvis du har tiden og lysten til å bruke evnene dine til noe godt,
     ønsker vi gjerne at du vurderer å bli med oss."
@@ -32,7 +33,8 @@
     hackere. Noen av oss jobber innen bedriftssikkerhet, noen i akademia, og
     noen i menneskerettighetsorganisasjoner. Vi ønsker å dedikere litt av vår
     tid til å forbedre det globale samfunnet."
-  hacker_p3: "Hvis du har lyst til å delta i diskusjoner og delta, så er det
+  hacker_p3: ""
+  hacker_p4: "Hvis du har lyst til å delta i diskusjoner og delta, så er det
     beste stedet å starte å abbonere på vår
     <a href=\"%{list}\">offentlige mail liste</a>."
   footer: "For generelle forespørsler, vennligst send en mail til %{info}. For
