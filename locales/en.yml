@@ -23,6 +23,8 @@ en:
     form. We will try to get back to you as promptly as possibly. However,
     please notice that we are a volunteer network, and resources and available
     people might at times be scarce."
+  activist_p3: "We are committed to assisting <i>everyone</i>, regardless of race,
+    gender, ethnicity, sexuality, religion or any other personal characteristic or identity."
   hacker_headline: "Are you a hacker or a computer security professional?"
   hacker_p1: "If you have the time and desire to use your skills for good, we
     invite you to consider joining us."
@@ -31,7 +33,10 @@ en:
     corporate security, some of us in academia, and some others in human rights
     organizations. We want to dedicate some of our time to the betterment of
     global society."
-  hacker_p3: "If you would like to join the discussion and volunteer, the
+  hacker_p3: "Security Without Borders are committed to equality and diversity, and 
+    value your offer of time and effort regardless of who you are. We actively work
+    to not discriminate and to build a diverse and inclusive community around our mission."
+  hacker_p4: "If you would like to join the discussion and volunteer, the
     best place to start is to subscribe to our <a href=\"%{list}\">public mailing list</a>."
   footer: "For general inquiries, please send an email to %{info}. For press inquiries, contact %{press}.
     For assistance requests, please use the more secure link at the top of the page."
