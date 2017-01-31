@@ -1,5 +1,5 @@
 ---
-no:
+'no':
   site_name: "Sikkerhet Uten Grenser"
   follow_us: "Følg oss på vår Twitter %{twitter}"
   subscribe: "eller meld deg på vårt <a href=\"%{newsletter}\">nyhetsbrev</a>."
@@ -24,11 +24,6 @@ no:
     tilbake til deg så fort som mulig. Ta hensyn til at vi er et frivillig
     nettverk, så antall ressurser og tilgjengelige personer kan til tider være
     knappe."
-  activist_p2: "Please get in touch with us by clicking the
-    <i>Request Assistance</i> button above, and filling out the subsequent
-    form. We will try to get back to you as promptly as possibly. However,
-    please notice that we are a volunteer network, and resources and available
-    people might at times be scarce."
   hacker_headline: "Er du en hacker eller jobber du med datasikkerhet?"
   hacker_p1: "Hvis du har tiden og lysten til å bruke evnene dine til noe godt,
     ønsker vi gjerne at du vurderer å bli med oss."
