@@ -3,6 +3,8 @@
 @import 'fonts';
 @import 'skeleton';
 
+$background--dark: #1e1e1e;
+
 body {
   background-color: #e1e1e1;
 }
@@ -11,7 +13,7 @@ body {
   position: relative;
   margin-top: 0;
   text-align: center;
-  background-color: #1e1e1e;
+  background-color: $background--dark;
   margin-bottom: 3rem;
 }
 
@@ -56,11 +58,6 @@ body {
 
 h1 {
   margin-bottom: 3rem;
-}
-
-.footer {
-  margin-top: 1rem;
-  text-align: center;
 }
 
 .container {
@@ -134,4 +131,19 @@ li {
 
 .center-contents {
   text-align: center;
+}
+
+.footer {
+  padding: 1rem 0;
+  background-color: $background--dark;
+}
+
+.footer__inner {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer__inner li {
+  margin: 0;
 }

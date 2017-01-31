@@ -29,3 +29,4 @@ de:
     <a href=\"%{list}\">öffentliche Mailingliste</a> an."
   footer: "Für generelle Anfragen, sende bitte eine Email an %{info}. Presseanfragen bitte an %{press}.
     Für Unterstützungsanfragen benutz bitte den speziell gesicherten Link oben auf der Seite."
+  code_of_conduct: "Code of Conduct"
