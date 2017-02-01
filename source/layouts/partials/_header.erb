@@ -3,7 +3,7 @@
       <div class="container">
         <div class="navigation__inner">
           <ul class="languages">
-            <% trimmed_locales.each do |locale| %>
+            <% trimmed_locales.sort.each do |locale| %>
               <% if locale.to_s == I18n.locale.to_s %>
                 <li><%= locale %></li>
               <% else %>

@@ -19,13 +19,16 @@ de:
     <i>Unterstützung Anfragen</i> Button klickst und das Formular ausfüllst.
     Wir werden uns so schnell wie möglich bei dir melden. Da wir jedoch ein Freiwilligennetzwerk sind,
     kann es sein, dass wir zeitweise stark ausgelastet sind."
+  activist_p3: ""
   hacker_headline: "Bist du HackerIn oder Cyber-Sicherheits ExpertIn?"
   hacker_p1: "Wenn du Zeit und Lust hast, deine Fähigkeiten für Gutes einzusetzen, laden wir dich ein, mitzuhelfen."
   hacker_p2: "Wir sind PenetrationstesterInnen, Malware-ForscherInnen, EntwicklerInnen,
     System AdministratorInnen und HackerInnen. Einige von uns arbeiten in Unternehmenssicherheit, andere in der
     Wissenschaft oder in Menschenrechtsorganisationen. Wir möchten einen Teil unserer Zeit investieren, um einen Beitrag zur
     Verbesserung der globalen Gesellschaft zu leisten."
-  hacker_p3: "Wenn du zur Diskussion beitragen oder aktiv helfen möchtest, melde dich am besten zuerst für unsere
+  hacker_p3: ""
+  hacker_p4: "Wenn du zur Diskussion beitragen oder aktiv helfen möchtest, melde dich am besten zuerst für unsere
     <a href=\"%{list}\">öffentliche Mailingliste</a> an."
   footer: "Für generelle Anfragen, sende bitte eine Email an %{info}. Presseanfragen bitte an %{press}.
     Für Unterstützungsanfragen benutz bitte den speziell gesicherten Link oben auf der Seite."
+  code_of_conduct: "Code of Conduct"
