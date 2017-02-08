@@ -41,6 +41,9 @@ helpers do
   def contact_form_iframe_url
     ENV.fetch("SWB_CONTACT_FORM_URL", "//localhost:5000/%{locale}/contact/form") % { locale: I18n.locale }
   end
+  def volunteer_form_iframe_url
+    ENV.fetch("SWB_VOLUNTEER_FORM_URL", "//localhost:5000/%{locale}/recruit/form") % { locale: I18n.locale }
+  end
   def trimmed_locales
     locales_list.each do |locale|
       locale.slice! ".yml"
