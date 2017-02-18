@@ -9,7 +9,7 @@ Security Without Borders is here to help. We can assist with web security assess
 ##Contribute
 
 There are several ways to contribute to SWB at this point.
-* translate the web-page to different languages
+* [translate the web-page to different languages](https://www.transifex.com/security-without-borders/security-without-borders-website/)
 * tell people about the initiative
 * join the [Mailing list](https://lists.securitywithoutborders.org/mailman/listinfo/swb-public)
 
