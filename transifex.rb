@@ -41,7 +41,7 @@ def list_resources()
 end
 
 def get_language_info(language_code)
-    url = 'https://www.transifex.com/api/2/project/security-without-borders-website/language/%s/' % language_code
+    url = 'https://www.transifex.com/api/2/project/security-without-borders-website/resource/enyml/stats/%s/' % language_code
     response = http(url)
     JSON.parse(response.body)    
 end
@@ -63,14 +63,18 @@ languages = list_languages()
 changes = 0
 for language in languages
     # puts language
-    # info = get_language_info(language["language_code"])
-    # if info.reviewed_segments != info.total_segments
-    #     # require that everything is reviewed.
-    #     break
-    # end
+
+    info = get_language_info(language["language_code"])
+    # puts "? %s is %s complete, %s reviewed" % language["language_code"], info["completed"], info["reviewed"]
+    if info["completed"] != "100%"
+        # require that everything is reviewed.
+        puts "- Skipping %s. Translation is not complete." % language["language_code"]
+        break
+    end
     tmpfile = download_translation_file language["language_code"]
     # puts tmpfile.path
-    shorter_code = language["language_code"][0, 2] # hoping here that transifex does not inject a naughty 2 character long string
+    shorter_code = language["language_code"] # hoping here that transifex does not inject a naughty string
+
     original_file = 'locales/%s.yml' % shorter_code
 
     if not (File::exists? original_file and FileUtils.compare_file tmpfile, original_file)
