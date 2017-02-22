@@ -63,6 +63,7 @@ languages = list_languages()
 changes = 0
 for language in languages
     # puts language
+
     info = get_language_info(language["language_code"])
     # puts "? %s is %s complete, %s reviewed" % language["language_code"], info["completed"], info["reviewed"]
     if info["completed"] != "100%"
@@ -73,6 +74,7 @@ for language in languages
     tmpfile = download_translation_file language["language_code"]
     # puts tmpfile.path
     shorter_code = language["language_code"] # hoping here that transifex does not inject a naughty string
+
     original_file = 'locales/%s.yml' % shorter_code
 
     if not (File::exists? original_file and FileUtils.compare_file tmpfile, original_file)
