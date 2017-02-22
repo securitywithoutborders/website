@@ -5,11 +5,11 @@
           <ul class="languages">
             <% trimmed_locales.sort.each do |locale| %>
               <% if locale.to_s == I18n.locale.to_s %>
-                <li><%= locale %></li>
+                <li><%= locale[0,2] %></li>
               <% else %>
                 <li>
                   <a href="/<%= if locale != "en" then locale else end %>">
-                    <%= locale %>
+                    <%= locale[0,2] %>
                   </a>
                 </li>
               <% end %>
