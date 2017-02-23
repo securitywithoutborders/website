@@ -1,42 +1,48 @@
 ---
 'no':
-  site_name: "Sikkerhet Uten Grenser"
-  follow_us: "Følg oss på vår Twitter %{twitter}"
+  site_name: "Sikkerhet uten grenser"
+  follow_us: "Følg oss på Twitter %{twitter}"
   subscribe: "eller meld deg på vårt <a href=\"%{newsletter}\">nyhetsbrev</a>."
   request_assistance: "Be om hjelp"
   core_team: "Kjerneteamet"
-  intro_paragraphs: "I denne moderne digitale alder, står de som avdekker
+  intro_paragraphs: "I denne moderne digitale tidsalder står de som avdekker
     korrupsjon, bekjemper rasisme, og kjemper for rettferdighet og demokrati
-    ovenfor økende trusler og forfølgelse på nettet.<br /><b>Sikkerhet Uten
-    Grenser er et åpent kollektiv av hackere og cybersikkerhetseksperter</b> som
-    frivillig hjelper journalister, menneskerettighetsforkjemper og ideele
-    organisasjoner med cyber sikkerhetsproblemer og -spørsmål."
+    overfor økende trusler og forfølgelse på nettet.<br /><b>Sikkerhet uten
+    grenser er et åpent kollektiv av frivillige hackere og
+    datasikkerhetseksperter</b> som hjelper journalister,
+    menneskerettighetsforkjempere og ideelle organisasjoner med problemer
+    knyttet til datasikkerhet."
   activist_headline: "Er du en aktivist, journalist eller en
     menneskerettighetsforkjemper?"
-  activist_p1: "Sikkerhet Uten Grenser er her for å hjelpe. Vi kan assistere deg
-    med sikkerhetsevalueringer, utføring av innbruddsetterforskning og analyse,
-    og kan generelt fungere som en rådgiver rundt cybersikkerhet. Siden
-    sikkerhetstjenester ofte er dyre, tilbyr Sikkerhet Uten Grenser disse
-    tjenestene gratis til organisasjoner og mennesker som kjemper kampen imot
-    brudd på menneskerettighetene, rasisme, og andre urettferdigheter."
-  activist_p2: "Vennligst ta kontakt ved å klikke på <i>Be om hjelp</i> knappen
-    over, og ved å fylle ut det påfølgende skjemaet. Vi vil prøve å komme
-    tilbake til deg så fort som mulig. Ta hensyn til at vi er et frivillig
-    nettverk, så antall ressurser og tilgjengelige personer kan til tider være
-    knappe."
-  activist_p3: ""
-  hacker_headline: "Er du en hacker eller jobber du med datasikkerhet?"
-  hacker_p1: "Hvis du har tiden og lysten til å bruke evnene dine til noe godt,
-    ønsker vi gjerne at du vurderer å bli med oss."
-  hacker_p2: "Vi er en gruppe bestående av penetrasjonstestere,
-    skadevareanalytikere, utviklere, ingeniører, system administratorer,
+  activist_p1: "Sikkerhet uten grenser er her for å hjelpe. Vi kan assistere deg
+    med sikkerhetsevalueringer, utføring av innbruddsetterforskning og -analyse,
+    og kan generelt fungere som en rådgiver for spørsmål knyttet til
+    datasikkerhet. Da sikkerhetstjenester ofte er kostbare, tilbyr Sikkerhet
+    uten grenser disse tjenestene gratis til organisasjoner og mennesker som
+    kjemper mot brudd på menneskerettighetene, rasisme, og annen urett."
+  activist_p2: "Ta kontakt med oss ved å klikke på <i>Be om hjelp</i>-knappen
+    over og fyll ut skjemaet som åpnes. Vi vil prøve å komme tilbake til deg så
+    fort som mulig. Men vær oppmerksom på at vi er et frivillig nettverk, så
+    tilgjengelig ressurser og personer kan være knappe til tider."
+  activist_p3: "Vi forplikter oss til å hjelpe <i>alle</i>, uavhengig av rase,
+    kjønn, etnisk bakgrunn, seksuell legning, religion eller enhvert annet
+    personlig særpreg eller identitet."
+  hacker_headline: "Er du en hacker, eller jobber du med datasikkerhet?"
+  hacker_p1: "Hvis du har tid og lyst til å bruke evnene dine til noe godt,
+    vil vi gjerne at du vurderer å slutte deg til oss."
+  hacker_p2: "Vi er en gruppe bestående av penetrasjonstestere, analytikere av
+    skadelig programvare, utviklere, ingeniører, systemadministratorer,
     hackere. Noen av oss jobber innen bedriftssikkerhet, noen i akademia, og
     noen i menneskerettighetsorganisasjoner. Vi ønsker å dedikere litt av vår
-    tid til å forbedre det globale samfunnet."
-  hacker_p3: ""
-  hacker_p4: "Hvis du har lyst til å delta i diskusjoner og delta, så er det
-    beste stedet å starte å abbonere på vår
-    <a href=\"%{list}\">offentlige mail liste</a>."
-  footer: "For generelle forespørsler, vennligst send en mail til %{info}. For
-    pressespørsmål, kontakt %{press}. For forespørsler om hjelp, vennligst bruk
-    den mer sikre lenken på toppen av siden."
+    tid til å gjøre det globale samfunnet bedre."
+  hacker_p3: "Sikkerhet uten grenser forplikter seg til likhet og mangfold, og
+    vi setter pris på din tid og ditt bidrag uavhengig av hvem du er. Vi jobber
+    aktivt for å ikke diskriminere og for å bygge et mangfoldig og inkluderende
+    fellesskap rundt oppdraget vårt."
+  hacker_p4: "Hvis du har lyst til å delta i diskusjonen og melde deg som
+    frivillig, er det beste utgangspunktet å abonnere på vår
+    <a href=\"%{list}\">offentlige e-postliste</a>."
+  footer: "Ved generelle forespørsler send vennligst en e-post til %{info}.
+    Forespørsler fra pressen rettes til %{press}. Ved forespørsler om bistand
+    vennligst bruk den mer sikre lenken på toppen av siden."
+  code_of_conduct: "Etiske retningslinjer"
