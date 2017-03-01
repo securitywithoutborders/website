@@ -73,7 +73,6 @@ for language in languages
     tmpfile = download_translation_file language["language_code"]
     # puts tmpfile.path
     shorter_code = language["language_code"] # hoping here that transifex does not inject a naughty string
-    
     original_file = 'locales/%s.yml' % shorter_code
 
     if not (File::exists? original_file and FileUtils.compare_file tmpfile, original_file)
