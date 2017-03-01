@@ -4,7 +4,7 @@ cs:
   subscribe: "nebo se přihlásit k odběru  <a href=\"%{newsletter}\">novinek</a>."
   request_assistance: "Žádost o pomoc"
   core_team: "Core Team"
-  intro_paragraphs: "V tomto moderním digitálním věku, ti kteří odhalují korupci, bojují proti rasismu, a bojují za spravedlnost a demokracii čelí narůstajícím hrozbám a pronásledování na internetu. <br /><b>Security Without Borders je otevřená skupina hackerů a počítačových profesionálů v oblasti bezpečnosti, kteří dobrovolně pomáhají novinářům, obránci lidských práv a neziskových organizací s počítačovou bezpečností."
+  intro_paragraphs: "V tomto moderním digitálním věku, ti kteří odhalují korupci, bojují proti rasismu, a bojují za spravedlnost a demokracii čelí narůstajícím hrozbám a pronásledování na internetu. <br /><b>Security Without Borders je otevřená skupina hackerů a počítačových profesionálů v oblasti bezpečnosti</b>, kteří dobrovolně pomáhají novinářům, obránci lidských práv a neziskových organizací s počítačovou bezpečností."
   activist_headline: "Jsi aktivista, novinář, nebo obránce lidských práv?"
   activist_p1: "Security Without Borders nabízí pomoc a podporu. Můžeme pomoci s analýzou webových aplikací, vést vyšetřování a analýzy počítačových útoků a všeobecně působit jako poradce v otázkách týkajících se kybernetické bezpečnosti. SWB nabízí tyto služby zdarma organizacím a lidem, kteří bojují proti zneužívání lidských práv, rasismu a jiných křivd."
   activist_p2: "Pro pomoc, stačí kliknout na tlačítko  <i>Požádat o pomoc</i> a vyplnit následný formulář. Pokusíme se vám následně odpovědět tak rychle, jak je to jen možné. V každém případě, mějte na vědomí, že jsme dobrovolnická sít a prostředky které máme k dispozici mohou být někdy nedostatečné."
