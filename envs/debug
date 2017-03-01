@@ -1,4 +1,3 @@
 #!/bin/bash
-export SWB_CONTACT_FORM_URL="http://localhost:5000/${locale}/contact/form"
-export SWB_VOLUNTEER_FORM_URL="http://localhost:5000/${locale}/recruit/form"
-
+export SWB_CONTACT_FORM_URL="http://localhost:5000/%{locale}/contact/form"
+export SWB_VOLUNTEER_FORM_URL="http://localhost:5000/%{locale}/recruit/form"
