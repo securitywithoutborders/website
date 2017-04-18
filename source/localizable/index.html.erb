@@ -1,34 +1,37 @@
-<!-- Primary Page Layout
- –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-    <div class="row">
-        <div class="twelve columns intro">
-            <p>
-                <%= t(:intro_paragraphs) %>
-            </p>
-            <div class="center-contents">
-              <a class="button button-primary request-assistance" href="<%= "#{home_url}contact.html" %>">
-                  <%= t(:request_assistance) %>
-              </a>
-            </div>
+<!-- Request help -->
+<section id="request-section" class="group is-bg-white first flex">
+<div class="image-container">
+    <a class="button call-to-action is-bg-yellow" href="/contact.html"><%= t(:request_assistance) %></a>
+</div>
+<div id="journalist-text" class="text-container">
+    <article class="article-content">
+        <h1>
+            <%= t(:activist_headline) %>
+        </h1>
+        <p>
+            <%= t(:activist_p1) %>
+        </p>
+        <p>
+            <%= t(:activist_p2) %>
+        </p>
+        <p>
+            <%= t(:activist_p3) %>
+        </p>
+    </article>
+</div>
+</section>
+
+<!--Volunteer -->		  
+<section id="volunteer-section" class="group is-text-white flex right-to-left"> 
+
+    <div class="image-container">					
+        <div class="call-to-action-container ">
+            <a class="button call-to-action is-bg-yellow unskew" href="/volunteer.html"><%= t(:volunteer) %></a>
         </div>
     </div>
-
-    <div class="row">
-        <div class="six columns">
-            <h4 class="smaller"><%= t(:activist_headline) %></h4>
-            <p>
-                <%= t(:activist_p1) %>
-            </p>
-            <p>
-                <%= t(:activist_p2) %>
-            </p>
-            <p>
-                <%= t(:activist_p3) %>
-            </p>
-        </div>
-        <div class="six columns">
-            <h4 class="smaller"><%= t(:hacker_headline) %></h4>
+    <div class="text-container">
+        <article class="article-content unskew">
+            <h1><%= t(:hacker_headline) %></h1>
             <p>
                 <%= t(:hacker_p1) %>
             </p>
@@ -38,23 +41,9 @@
             <p>
                 <%= t(:hacker_p3) %>
             </p>
-            <p>
-                <%= t(:hacker_p4, list: "https://lists.securitywithoutborders.org/mailman/listinfo/swb-public") %>
-            </p>
-            <p>
-                <%= t(:follow_us, twitter: "<a href=\"https://twitter.com/swborders\">@swborders</a>") %>
-                <%= t(:subscribe, newsletter: "https://newsletter.securitywithoutborders.org/subscription/S19JGWrvg") %>
-            </p>
-        </div>
+        </article>
     </div>
-    <div class="row">
-        <div class="one column">
-            <p><!-- filler --></p>
-        </div>
-        <div class="ten columns">
-            <p>
-                <%= t(:footer, info: "<a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>", press: "<a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>") %>
-            </p>
-        </div>
-    </div>
-</div>
+
+</section>		  
+
+

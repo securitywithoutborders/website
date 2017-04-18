@@ -1,0 +1,97 @@
+/* ---------------------
+	SWB CSS MODULE
+---------------------- */
+/* Image container */
+.image-container {
+	position: relative;
+}
+
+/* Article */
+.first .article-content {
+	padding-top: 6em;
+}
+
+.article-content {
+	position: relative;
+}
+
+.article-content {
+    margin: 0 auto;
+    max-width: 650px;
+	padding: 1em 5% 6em;
+    position: relative;
+}
+
+.text-container {
+    width: 100%;
+}
+
+/* Image */
+.image-container {
+	overflow: hidden; 
+	width: 600px;
+    height: 650px;
+}
+
+/* Call to action */
+.call-to-action {
+	color: #000 !important;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    position: absolute;
+		top: 250px;
+		right: 100px;
+}
+
+.l-float-left .call-to-action {
+	left: 20%;
+}
+
+.l-float-right .call-to-action {
+	right: 20%;
+}
+
+/* Skew */
+/*.skew {
+	position: relative;
+}*/
+
+.skew.skew-before::before,
+.skew.skew-after::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height:7em;
+    width: 100%;
+    /*z-index: 1;*/
+}
+/*.skew.skew-before:before {
+	top: 0;
+}
+.skew.skew-after:after {
+	bottom: 0;
+}*/
+
+.skew.skew-before::before {
+    -webkit-transform: skewY(4deg) translateY(-4em);
+    -ms-transform: skewY(4deg) translateY(-4em);
+      transform: skewY(4deg) translateY(-4em);
+}
+
+.skew.skew-after::after {
+    -webkit-transform: skewY(4deg); /* translateY(-4em);*/
+    -ms-transform: skewY(4deg); /* translateY(-4em);*/
+    transform: skewY(4deg); /*translateY(3em);*/
+}
+
+/* Image container */
+/*.image-container::before {
+    background: #fff;
+}*/
+
+.image-container.skew.skew-before {
+    /*top: -4.98em;*/
+    /*top: -6.80em;*/
+}

@@ -1,0 +1,187 @@
+/* ---------------------
+	SWB CSS BSE
+---------------------- */
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	background-color: #000;
+	
+}
+
+main, header, footer {
+	max-width: 1440px;	
+	margin: 0 auto;
+}
+
+
+/* Clearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Links */
+a {
+    color: #2196F3;
+}
+
+p a {
+    font-weight: bold;
+}
+
+a:hover,
+::selection {
+	background-color: #f00f58;
+}	
+
+/* Header */
+.flex {
+	display: flex;
+}
+
+.right-to-left {
+	flex-direction: row-reverse;
+}
+
+.flex-2 {
+	flex-grow: 2;
+}
+
+
+header,
+footer {
+	position: relative;
+	background-color: #000;
+}
+
+.header-content,
+.footer-content {
+	position: relative;
+	z-index: 2;
+}
+
+.header-content {
+	padding: 2em 5% 0;
+}
+
+.footer-content {
+	padding: 0 5% 2em;
+}
+
+header::after,
+footer::before {
+	background: #000;
+    content: '';
+    display: block;
+    height: 8em;
+    width: 100%;
+	z-index: 1;
+}
+
+header::after {
+    position: absolute;
+	/*bottom: -8em;*/
+    transform: skewY(-5deg) translateY(-4em);
+		-webkit-transform: skewY(-5deg) translateY(-4em);
+		-ms-transform: skewY(-5deg) translateY(-4em);
+}
+
+footer::before {
+	position: absolute;
+    transform: skewY(-5deg) translateY(-4em);
+		-webkit-transform: skewY(-5deg) translateY(-4em);
+		-ms-transform: skewY(-5deg) translateY(-4em);
+}
+
+header a:hover {
+	background-color: transparent;
+}
+
+.logo {
+	height: 125px;
+}
+
+/* Language changer */
+.language-changer a {
+	background: url('../images/globe-icon.png') no-repeat top right;
+	background-size: 25px;
+    padding: 4px 35px 25px 0;
+    text-decoration: none;
+}
+
+.language-changer .language-changer-more {
+	display: none;
+	z-index: 2;
+}
+
+.language-changer:hover .language-changer-more {
+	display: block;
+	position: absolute;
+	background-color: #000;
+}
+
+.language-changer .language-changer-more a {
+	background-image: none;
+	display: block;
+	padding-bottom: 0;
+}
+
+/* Navigation */
+nav a {
+	border-bottom: 2px solid #f0c80f;
+	margin-right: -5px;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border-bottom-color: #f00f58;
+}
+
+
+
+#volunteer-section .image-container {
+	/*position: absolute;*/
+	/*top: -50%;*/
+	overflow:hidden;
+}
+
+#volunteer-section .text-container {
+	padding-top: 3em;
+}
+
+#volunteer-section {
+	background-color: #009933;	
+}
+
+
+#volunteer-section .image-container {
+	background-image: url("/images/keyboard.jpg");
+}
+
+#request-section .image-container {
+	background-image: url("/images/demonstration.jpg");
+}
+
+.main-container {
+	min-height: 700px;
+	padding: 150px 50px 150px 50px;
+	
+}
+
+/*#volunteer-section {
+	background-color: #009933;
+	background-image: url("/images/keyboard.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 600px 600px;
+}*/
+/*
+#journalist-text.skew.skew-after::after {
+	background-color: #fff;
+	z-index: 1;
+}*/
