@@ -1,12 +1,11 @@
-<footer class="group is-bg-black">
+<footer class="group is-bg-black skew skew-before">
   <div class="group footer-content l-half-size l-float-right">
     <h2>Contact</h2>
     <p>
-    For general inquiries, please send an email to <a href="mailto:info@securitywithoutborders.org">info@securitywithoutborders.org</a>.<br> 
-    For press inquiries, contact <a href="mailto:press@securitywithoutborders.org">press@securitywithoutborders.org</a>.
+      <%= t(:footer_p1, info: "<a href=\"mailto:info@securitywithoutborders.org\">info@securitywithoutborders.org</a>", press: "<a href=\"mailto:press@securitywithoutborders.org\">press@securitywithoutborders.org</a>") %>
     </p>
     <p>
-      Follow us on Twitter at <a href="https://twitter.com/swborders">@swborders</a> or subscribe to our <a href="https://newsletter.securitywithoutborders.org/subscription/S19JGWrvg">newsletter</a>. </p>
+      <%= t(:footer_p2, twitter: '<a href="https://twitter.com/swborders">@swborders</a>', newsletter: '<a href="https://newsletter.securitywithoutborders.org/subscription/S19JGWrvg">newsletter</a>') %>
     </p>
     <p>
       <a href="https://github.com/securitywithoutborders/organization/blob/master/code-of-conduct.md"><%= t(:code_of_conduct) %></a>

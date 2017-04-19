@@ -30,7 +30,7 @@
 .image-container {
 	overflow: hidden; 
 	width: 600px;
-    height: 650px;
+    min-height: 650px;
 }
 
 /* Call to action */
@@ -53,45 +53,27 @@
 	right: 20%;
 }
 
-/* Skew */
-/*.skew {
-	position: relative;
-}*/
-
 .skew.skew-before::before,
 .skew.skew-after::after {
     content: '';
     display: block;
     position: absolute;
-    height:7em;
+    height: 10vw;
     width: 100%;
-    /*z-index: 1;*/
 }
-/*.skew.skew-before:before {
-	top: 0;
-}
-.skew.skew-after:after {
-	bottom: 0;
-}*/
 
 .skew.skew-before::before {
-    -webkit-transform: skewY(4deg) translateY(-4em);
-    -ms-transform: skewY(4deg) translateY(-4em);
-      transform: skewY(4deg) translateY(-4em);
+    -webkit-transform: skewY(-5deg) translateY(-5vw);
+    -ms-transform: skewY(-5deg) translateY(-5vw);
+      transform: skewY(-5deg) translateY(-5vw);
 }
 
 .skew.skew-after::after {
-    -webkit-transform: skewY(4deg); /* translateY(-4em);*/
-    -ms-transform: skewY(4deg); /* translateY(-4em);*/
-    transform: skewY(4deg); /*translateY(3em);*/
+    -webkit-transform: skewY(-5deg) translateY(-7.5vw);
+    -ms-transform: skewY(-5deg) translateY(-7.5vw);
+    transform: skewY(-5deg) translateY(-7.5vw);
 }
 
-/* Image container */
-/*.image-container::before {
-    background: #fff;
-}*/
-
-.image-container.skew.skew-before {
-    /*top: -4.98em;*/
-    /*top: -6.80em;*/
+.center-contents {
+    text-align: center;
 }
