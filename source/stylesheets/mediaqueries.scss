@@ -1,14 +1,10 @@
 @media screen and (max-width: 766px) {
-
 	.header-content.flex,
 	section.flex{
 		flex-direction: column;
 	}
 	
-	.logo {
-		height: 75px;
-		margin-bottom: 20px;
-	}
+
 	
 	.language-changer {
 		position: absolute;
@@ -26,6 +22,7 @@
 	.image-container {
 		width: 100%;
 		max-height: 300px;
+		min-height: 300px;
 	}
 
 	header::after {
@@ -62,7 +59,8 @@
 	}
 	
 	
-	.call-to-action {
+	#volunteer-section .call-to-action,
+	#request-section .call-to-action {
 		top: 150px;
 		right: auto;
 		left: 10%;
@@ -124,5 +122,20 @@
 	#volunteer-section .call-to-action {
 		top: 150px;
 		right: 150px;
+	}
+}
+
+// Scaling the logo
+@media screen and (max-width: 1000px) {
+	.logo {
+		height: 75px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.logo {
+		height: 200px;
+		margin-bottom: 20px;
 	}
 }

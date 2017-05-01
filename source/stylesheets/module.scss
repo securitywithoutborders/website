@@ -40,7 +40,11 @@
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 25px;
-    position: absolute;
+}
+
+#volunteer-section .call-to-action,
+#request-section .call-to-action {
+        position: absolute;
 		top: 250px;
 		right: 100px;
 }
