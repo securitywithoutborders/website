@@ -7,16 +7,15 @@
     </div>
     <nav class="flex-2 is-text-align-center">
       <a href="<%= home_url %>">Home</a>
-      <!-- <a href="<%= home_url %>blog.html">Blog</a> -->
       <a href="https://medium.com/security-without-borders">Blog</a>
       <a href="<%= home_url %>missions.html">Missions</a>
       <a href="<%= home_url %>team.html">Team</a>
     </nav>
     <div class="flex-1 language-changer is-text-align-right">
-      <a href="#"><%= I18n.locale.to_s %></a>
+      <a href="#"><%= t(:language_name) %></a>
       <div class="language-changer-more">
         <% trimmed_locales.sort.each do |locale| %>          
-            <a href="/<%= if locale != "en" then locale else end %>"><%= locale[0,2] %></a>               
+            <a href="/<%= if locale != "en" then locale + "/" else end %><%= if I18n.locale.to_s == "en" then current_page.path else current_page.path[I18n.locale.to_s.length + 1,current_page.path.length] end %>"><%= t(:language_name,locale: locale) %></a>               
         <% end %>
       </div>
     </div>

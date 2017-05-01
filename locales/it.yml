@@ -1,4 +1,5 @@
 it:
+  language_name: "Italiano"
   site_name: "Security Without Borders"
   follow_us: "Seguici su Twitter a %{twitter}"
   subscribe: "o iscriviti alla nostra <a href=\"%{newsletter}\">newsletter</a>."

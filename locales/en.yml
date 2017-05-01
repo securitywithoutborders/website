@@ -1,9 +1,11 @@
 ---
 en:
+  language_name: "English"
   site_name: "Security Without Borders"
   follow_us: "Follow us on Twitter at %{twitter}"
   subscribe: "or subscribe to our <a href=\"%{newsletter}\">newsletter</a>."
   request_assistance: "Request Assistance"
+  volunteer: "Volunteer"
   core_team: "Core Team"
   intro_paragraphs: "In this modern digital age, those who expose corruption,
     fight racism, and fight for justice and democracy face increasing threats
@@ -38,6 +40,9 @@ en:
     to not discriminate and to build a diverse and inclusive community around our mission."
   hacker_p4: "If you would like to join the discussion and volunteer, the
     best place to start is to subscribe to our <a href=\"%{list}\">public mailing list</a>."
-  footer: "For general inquiries, please send an email to %{info}. For press inquiries, contact %{press}.
+  footer_p1: "For general inquiries, please send an email to %{info}. For press inquiries, contact %{press}.
     For assistance requests, please use the more secure link at the top of the page."
+  footer_p2: "Follow us on Twitter at %{twitter} or subscribe to our %{newsletter}."
   code_of_conduct: "Code of Conduct"
+  team_intro: "This page shows the members of our core group. [expand]"
+  team_privacy: "Note that this page does not reflect all of our members. Some members will for their own reasons choose to be anonymous. [expand?]"

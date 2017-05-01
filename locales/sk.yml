@@ -1,4 +1,5 @@
 sk:
+  language_name: "Slovenčina"
   site_name: "Security Without Borders"
   follow_us: "Sleduj nás na Twittery na %{twitter}"
   subscribe: "alebo sa prihlás k odberu noviniek cez <a href=\"%{newsletter}\">email</a>."

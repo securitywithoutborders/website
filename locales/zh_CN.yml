@@ -1,4 +1,5 @@
 zh_CN:
+  language_name: "汉语"
   site_name: "Security Without Borders"
   follow_us: "请在 Twitter 关注：%{twitter}"
   subscribe: "或者订阅我们的<a href=\"%{newsletter}\">新闻邮件</a>。"

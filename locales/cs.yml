@@ -1,4 +1,5 @@
 cs:
+  language_name: "čeština"
   site_name: "Security Without Borders"
   follow_us: "Nasleduj nás na %{twitter}"
   subscribe: "nebo se přihlásit k odběru  <a href=\"%{newsletter}\">novinek</a>."
