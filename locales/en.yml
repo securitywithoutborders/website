@@ -44,5 +44,8 @@ en:
     For assistance requests, please use the more secure link at the top of the page."
   footer_p2: "Follow us on Twitter at %{twitter} or subscribe to our %{newsletter}."
   code_of_conduct: "Code of Conduct"
-  team_intro: "This page shows the members of our core group. [expand]"
+  team_intro: "This page shows the members of our community. [expand]"
+  community_team: "Community Members"
+  community_team_intro: "These are some of our members."
   team_privacy: "Note that this page does not reflect all of our members. Some members will for their own reasons choose to be anonymous. [expand?]"
+  
