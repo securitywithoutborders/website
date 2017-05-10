@@ -9,14 +9,16 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman', '>= 4.0.0'
+gem "middleman", "~> 4.1"
 gem 'middleman-livereload'
 
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
 
+
 # For linux folks, need a JS runtime
 gem 'therubyracer'
+gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # Nice Sass style linting in your editor, if you enable it. Stops bad CSS.
 # https://github.com/brigade/scss-lint/
@@ -27,3 +29,7 @@ end
 # For favicon generation
 # https://github.com/follmann/middleman-favicon-maker
 gem "middleman-favicon-maker", "~> 4.0"
+
+gem "middleman-blog", "~> 4.0"
+gem "builder", "~> 3.0"
+gem "nokogiri"

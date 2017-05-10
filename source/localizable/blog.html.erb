@@ -1,28 +1,58 @@
-<!-- Not actually used, just a template we can use as a basis. -->
+---
+pageable: true
+per_page: 10
+---
 <section class="group main-container is-bg-white first">
-    
-    <h2>Blog</h2>
-    <div class="row">
-        <div class="two-thirds column">
-            <div class="row">
-                <div class="one-third column">
-                    <img src="/images/demonstration.jpg" class="image-core-team">
-                </div>
-                <div class="two-thirds column">
-                    <h3>Pipsum dolor sit amet</h3>
-                    <p>Yadda yadd yadda</p>
-                </div>
+    <!--<div class="container">-->
+        <h2>Blog</h2>
+
+        <% if paginate && num_pages > 1 %>
+            <p>Page <%= page_number %> of <%= num_pages %></p>
+
+            <% if prev_page %>
+                <p><%= link_to 'Previous page', prev_page %></p>
+            <% end %>
+        <% end %>
+
+        <div class="row">
+        
+            <div class="two-thirds column">
+                <% page_articles.each_with_index do |article, i| %>
+                    <div class="row">
+                        <div class="one-third column">
+                            <div class="blog-thumb-image" <%= "style=\"background-image: url('#{article.data.image}');\"" unless article.data.image.nil? %>>                     
+                                <div>            
+                                    <span><%= article.date.strftime('%B') %></span>                                                                    
+                                    <span class="bigger"><%= article.date.strftime('%d') %></span>                                                                    
+                                </div>
+                            </div>
+                            <!--<img src="/images/demonstration.jpg" class="image-core-team">-->
+                        </div>
+                        <div class="two-thirds column">
+                            <h3><%= link_to article.title, article %></h3>
+                            <!-- use article.summary(250) if you have Nokogiri available to show just
+                                the first 250 characters -->
+                            <%= article.summary(1000) %>
+                        </div>
+                    </div>
+                    <% if paginate %>
+                        <% if next_page %>
+                            <p><%= link_to 'Next page', next_page %></p>
+                        <% end %>
+                    <% end %>
+                <% end %>
+            </div>   
+        
+            <div class="one-third column archive-menu">
+                <h4>Archive</h4>
+                <a href="">2017</a>
+                <ul>
+                    <li><a href="">March</a></li>
+                    <li><a href="">February</a></li>
+                    <li><a href="">January</a></li>
+                </ul>
             </div>
         </div>
-        <div class="one-third column archive-menu">
-            <h4>Archive</h4>
-            <a href="">2017</a>
-            <ul>
-                <li><a href="">March</a></li>
-                <li><a href="">February</a></li>
-                <li><a href="">January</a></li>
-            </ul>
-        </div>
-    </div>
+    <!--</div>-->
         
 </section>
