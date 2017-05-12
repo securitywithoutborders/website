@@ -193,32 +193,3 @@ nav a:hover {
 .c-form {
 	height: 1500px;
 }
-
-.blog-thumb-image {	
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	// filter: grayscale(100%);
-	background-color: #777;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;	
-}
-
-.blog-thumb-image span {
-	background-color: #000;
-	padding: 5px;
-	border-bottom: 5px solid transparent;	
-	background-clip: padding-box;
-	font-size: 16pt;
-	color: #FFF;
-	display: block;
-}
-
-.blog-thumb-image span.bigger {
-	font-size: 30pt;
-	border-bottom: 0;		
-	line-height: 32pt;
-	display: inline-block;
-}
