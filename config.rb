@@ -32,7 +32,7 @@ activate :blog do |blog|
   # set options on blog
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "layouts/blog-post"
   # blog.summary_separator = /(READMORE)/
@@ -44,6 +44,7 @@ activate :blog do |blog|
 
   # blog.tag_template = "tag.html"
   blog.calendar_template = "blog/calendar.html"
+  blog.sources = "posts/{year}-{month}-{day}-{title}.html"
 
   # Enable pagination
   blog.paginate = true
