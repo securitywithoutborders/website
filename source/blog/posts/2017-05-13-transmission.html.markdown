@@ -1,7 +1,8 @@
 ---
 title: Transmission 2
-date: 2017-06-13 12:28 UTC
-tags:
+date: 2017-05-13 12:28 UTC
+tags: transmission
+image: "/images/keyboard.jpg"
 ---
 Transmissions from Security Without Borders are status updates intended for our supporters, members and partners.
 

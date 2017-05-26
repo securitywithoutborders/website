@@ -1,7 +1,8 @@
 ---
 title: Transmission 1
-date: 2017-06-09 04:58 UTC
+date: 2017-05-13 04:58 UTC
 tags: transmission
+image: "/images/keyboard.jpg"
 ---
 
 Security Without Borders (SWB) is a collective of hackers and security professionals who provide technical assistance to civil society and activists that are dedicated to the international, non-violent struggle to protect fundamental human rights.
