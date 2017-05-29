@@ -68,7 +68,7 @@ Enjoy the reading and stay safe.
 
 This newsletter is edited collaboratively by the larger Security Without Borders community. These are some of the people who helped with this issue: [Martijn Grooten](https://twitter.com/martijn_grooten), adonis28850 and [others](https://github.com/securitywithoutborders/newsletter/issues/8). Curated by [Claudio "nex" Guarnieri](https://twitter.com/botherder).
 
----
+<!-----
 Preferences: [LINK_PREFERENCES]  
 Unsubscribe: [LINK_UNSUBSCRIBE]  
-View this email in your browser: [LINK_BROWSER]
+View this email in your browser: [LINK_BROWSER]-->
