@@ -27,7 +27,7 @@ per_page: 5
                     <div class="row">
                         <div class="one-third column blog-left-column">
                             <div class="blog-thumb-image" <%= "style=\"background-image: url('#{article.data.image}');\"" unless article.data.image.nil? %>>                     
-                                <div>            
+                                <div class="no-select">            
                                     <span><%= article.date.strftime('%B') %></span>                                                                    
                                     <span class="bigger"><%= article.date.strftime('%d') %></span>                                                                    
                                 </div>
