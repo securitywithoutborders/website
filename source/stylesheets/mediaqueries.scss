@@ -1,4 +1,4 @@
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 800px) {
 	.header-content.flex,
 	section.flex{
 		flex-direction: column;
@@ -11,6 +11,10 @@
 	
 	nav a {
 	    padding: 10px 25px;
+	}
+
+	nav {
+		line-height: 45px;
 	}
 	
 	.first .article-content {
@@ -94,9 +98,14 @@
 	#volunteer-section .article-content {
 		padding-bottom: 10em;
 	}
+
+	.main-container {
+		min-height: 700px;
+		padding: 100px 0px 150px 0px;
+	}
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 800px) {
 	#volunteer-section {
 		background-color: #009933;
 		-webkit-transform: skewY(5deg) translateY(-5vw);
