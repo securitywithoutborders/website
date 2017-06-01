@@ -9,6 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+page '*code-of-conduct.html', layout: 'layout-markdown'
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -24,6 +26,36 @@ activate :i18n, :mount_at_root => :en
 # Easy
 activate :autoprefixer
 
+activate :blog do |blog|
+
+  # This will add a prefix to all links, template references and source paths
+  blog.prefix = "blog"
+  
+  # set options on blog
+  # blog.permalink = "{year}/{month}/{day}/{title}.html"
+  # Matcher for blog source files
+  
+  # blog.taglink = "tags/{tag}.html"
+  blog.layout = "layouts/blog-post"
+  # blog.summary_separator = /(READMORE)/
+  # blog.summary_length = 500
+  # blog.year_link = "{year}.html"
+  # blog.month_link = "{year}/{month}.html"
+  # blog.day_link = "{year}/{month}/{day}.html"
+  blog.default_extension = ".markdown"
+
+  # blog.tag_template = "tag.html"
+  blog.calendar_template = "blog/calendar.html"
+  blog.sources = "posts/{year}-{month}-{day}-{title}.html"
+
+  # Enable pagination
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/{num}"
+end
+
+
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -32,6 +64,7 @@ end
 ###
 # Helpers
 ###
+page "/feed.xml", layout: false
 
 # Methods defined in the helpers block are available in templates
 helpers do
@@ -80,3 +113,4 @@ configure :build do
     }
   end
 end
+

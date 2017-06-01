@@ -1,0 +1,76 @@
+---
+pageable: true
+per_page: 5
+---
+<section class="group main-container is-bg-white first">
+    <div class="container wide-container">       
+
+        <div class="row">
+            <div class="two-thirds column">
+                <div class="one-third column blog-left-column">
+                    &nbsp;
+                </div>
+                <div class="two-thirds column">
+                    <h2>Blog</h2>                                 
+                </div>
+            </div>
+        </div>
+
+        <div class="row">        
+            <div class="two-thirds column" id="blog-post-list-column"> 
+                <% page_articles.each_with_index do |article, i| %>
+                    <div class="row">
+                        <div class="one-third column blog-left-column">
+                            <div class="blog-thumb-image" <%= "style=\"background-image: url('#{article.data.image}');\"" unless article.data.image.nil? %>>                     
+                                <div class="no-select">            
+                                    <span><%= article.date.strftime('%B') %></span>                                                                    
+                                    <span class="bigger"><%= article.date.strftime('%d') %></span>                                                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="two-thirds column blog-post-list-item">
+                            <h4><%= link_to article.title, article %></h4>
+                            <!-- use article.summary(250) if you have Nokogiri available to show just
+                                the first 250 characters -->
+                            <%= article.summary(500) %><%= link_to 'Continue reading', article %>
+                        </div>
+                    </div>                    
+                <% end %>
+                <div class="one-third column blog-left-column">
+                    &nbsp;
+                </div>
+                <div class="two-thirds column">
+                     <% if paginate && num_pages > 1 %>
+                        <p>Page <%= page_number %> of <%= num_pages %></p>
+
+                        <p>
+                        <% if prev_page %>
+                            <%= link_to '<< Previous page', prev_page %>
+                        <% end %>
+                        <% if next_page %>
+                            <%= link_to 'Next page >>', next_page %>
+                        <% end %>
+                        </p>
+                    <% end %>                                  
+                </div>                    
+            </div>   
+        
+            <div class="one-third column archive-menu">
+                <h4>Archive</h4>
+
+                <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+
+                    <h5><a class="bigger" href="/blog/<%= year %>.html"><%= year %> (<%= articles.length %>)</a></h5>
+                    <ul>
+                        <% articles.group_by {|a| a.date.month }.each do |month, articles| %>
+                        <li><a href="/blog/<%= year %>/<%= articles[0].date.strftime('%m') %>.html"><%= articles[0].date.strftime('%B') %> (<%= articles.length %>)</a></li>                           
+                        <% end %>
+                    </ul>
+                
+                <% end %>
+                
+            </div>
+        </div>
+    </div>
+        
+</section>

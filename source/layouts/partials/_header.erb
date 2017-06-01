@@ -1,29 +1,23 @@
-<section class="header">
-    <nav class="navigation">
-      <div class="container">
-        <div class="navigation__inner">
-          <ul class="languages">
-            <% trimmed_locales.sort.each do |locale| %>
-              <% if locale.to_s == I18n.locale.to_s %>
-                <li><%= locale[0,2] %></li>
-              <% else %>
-                <li>
-                  <a href="/<%= if locale != "en" then locale else end %>">
-                    <%= locale[0,2] %>
-                  </a>
-                </li>
-              <% end %>
-            <% end %>
-          </ul>
-          <ul class="links">
-            <li>
-              <a href="<%= home_url %>core-team.html">
-                <%= t(:core_team) %>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+<header class="is-text-white">
+  <div class="group flex header-content">
+    <div class="logo-container">
+      <a href="<%= home_url %>">
+        <img src="/images/logo.png" alt="logo" class="logo"/>
+      </a>
+    </div>
+    <nav class="flex-2 is-text-align-center">
+      <a href="<%= home_url %>">Home</a>
+      <a href="<%= home_url %>blog.html">Blog</a>
+      <a href="<%= home_url %>missions.html">Missions</a>
+      <a href="<%= home_url %>team.html">Team</a>
     </nav>
-    <div class="logo"><a href="<%= home_url %>" title="Security Without Borders"><img src="/images/logo.png" alt="SWB"></a></div>
-</section>
+    <div class="flex-1 language-changer is-text-align-right">
+      <a href="#"><%= t(:language_name) %></a>
+      <div class="language-changer-more">
+        <% trimmed_locales.sort.each do |locale| %>          
+            <a href="/<%= if locale != "en" then locale + "/" else end %><%= if I18n.locale.to_s == "en" then current_page.path else current_page.path[I18n.locale.to_s.length + 1,current_page.path.length] end %>"><%= t(:language_name,locale: locale) %></a>               
+        <% end %>
+      </div>
+    </div>
+  </div>
+</header>

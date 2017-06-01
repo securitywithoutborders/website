@@ -1,0 +1,93 @@
+/* ---------------------
+	SWB CSS MODULE
+---------------------- */
+/* Image container */
+.image-container {
+	position: relative;
+}
+
+/* Article */
+.first .article-content {
+	padding-top: 6em;
+}
+
+.article-content {
+	position: relative;
+}
+
+.article-content {
+    margin: 0 auto;
+    max-width: 650px;
+	padding: 1em 5% 6em;
+    position: relative;
+}
+
+.text-container {
+    width: 100%;
+}
+
+/* Image */
+.image-container {
+	overflow: hidden; 
+	width: 600px;
+    min-height: 650px;
+}
+
+/* Call to action */
+.call-to-action {
+	color: #000 !important;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 25px;
+}
+
+#volunteer-section .call-to-action,
+#request-section .call-to-action {
+        position: absolute;
+		top: 250px;
+		right: 100px;
+}
+
+.l-float-left .call-to-action {
+	left: 20%;
+}
+
+.l-float-right .call-to-action {
+	right: 20%;
+}
+
+.skew.skew-before::before,
+.skew.skew-after::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 10vw;
+    width: 100%;
+}
+
+.skew.skew-before::before {
+    -webkit-transform: skewY(-5deg) translateY(-5vw);
+    -ms-transform: skewY(-5deg) translateY(-5vw);
+      transform: skewY(-5deg) translateY(-5vw);
+}
+
+.skew.skew-after::after {
+    -webkit-transform: skewY(-5deg) translateY(-7.5vw);
+    -ms-transform: skewY(-5deg) translateY(-7.5vw);
+    transform: skewY(-5deg) translateY(-7.5vw);
+}
+
+.center-contents {
+    text-align: center;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

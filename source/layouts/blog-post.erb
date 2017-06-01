@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+  <section class="group main-container is-bg-white first flex">
+  <article class="container blog-post">
+    <h1><%= current_article.title %></h1>
+    <h3><%= current_article.date.strftime('%b %d') %></h3>
+
+    <%= yield %>
+  </article>
+  </section>
+<% end %>

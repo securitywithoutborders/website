@@ -1,4 +1,5 @@
 da:
+  language_name: "Dansk"
   site_name: "Security Without Borders"
   follow_us: "Følg os på Twitter på %{twitter}"
   subscribe: "eller tilmeld dig vores <a href=\"%{newsletter}\">nyhedsbrev</a>."

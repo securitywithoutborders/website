@@ -1,0 +1,41 @@
+/* ---------------------
+	SWB CSS STATE
+---------------------- */
+
+/* Colors */
+.is-bg-green,
+.is-bg-green::before {
+	background-color: #009933;
+}
+
+.is-bg-yellow {
+	background-color: #f0c80f;
+}
+
+.is-bg-white,
+.is-bg-white::before {
+	background-color: #fff;
+}
+
+.is-bg-black {
+	background-color: #000;
+}
+
+.is-text-white > *,
+.is-text-white a,
+.is-bg-black > *,
+.is-bg-black a,
+.is-bg-green > * ,
+.is-bg-green a {
+	color: #fff;
+}
+
+/* Text */
+.is-text-align-right {
+	text-align: right;
+}
+
+.is-text-align-center {
+	text-align: center;
+}
+
