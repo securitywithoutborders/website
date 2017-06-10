@@ -1,4 +1,5 @@
 fr:
+  language_name: "Français"
   site_name: "Security Without Borders"
   follow_us: "Suivez-nous sur Twitter : %{twitter}"
   subscribe: "ou abonnez-vous à notre <a href=\"%{newsletter}\">lettre d'information</a>."
@@ -6,7 +7,7 @@ fr:
   core_team: "Core Team"
   intro_paragraphs: "Depuis l’avènement de l’ère numérique, ceux qui dénoncent la corruption, luttent contre le racisme et défendent la justice et la démocratie sur Internet sont plus que jamais menacés. <br /><b>Sécurité sans Frontières est un collectif de professionnels de la sécurité informatique et de hackers</b> qui se portent volontaires pour prêter assistance aux journalistes, défenseurs des droits de l’homme et organisations à but non-lucratif dans le domaine de la sécurité informatique."
   activist_headline: "Vous êtes un activiste, un journaliste ou un défenseur des droits de l’homme?"
-  activist_p1: "Security Without Borders est à votre service. Nous pouvons vous assister en conduisant un audit de sécurité de votre site internet, en menant des investigations en cas d’attaque, et de manière générale en vous conseillant sur les problématiques liées à la sécurité informatique. Les prestations de sécurisation étant le plus souvent coûteuses, tout individu ou organisation qui lutte contre les violations des droits de l’homme, le racisme et autres injustices peut bénéficier du soutien de SSF à titre gracieux."
+  activist_p1: "Sécurité Sans Frontières est à votre service. Nous pouvons vous assister en conduisant un audit de sécurité de votre site internet, en menant des investigations en cas d’attaque, et de manière générale en vous conseillant sur les problématiques liées à la sécurité informatique. Les prestations de sécurisation étant le plus souvent coûteuses, tout individu ou organisation qui lutte contre les violations des droits de l’homme, le racisme et autres injustices peut bénéficier du soutien de SSF à titre gracieux."
   activist_p2: "Contactez-nous en remplissant le formulaire accessible via le bouton <i>Demander de l’aide</i> ci-dessus, et nous reviendrons vers vous dans les meilleurs délais. Gardez cependant à l’esprit que nous sommes constitués exclusivement de volontaires, et que nos ressources peuvent à ce titre être ponctuellement limitées."
   activist_p3: "Nous nous engageons à assister <i>tout individu</i>, sans distinction de race, de genre, de race, de préférence sexuelle, de religion, d'identité ou toute autre caractéristique personnelle. "
   hacker_headline: "Vous êtes un hacker ou un professionnel de la sécurité informatique?"

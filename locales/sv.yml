@@ -1,4 +1,5 @@
 sv:
+  language_name: "Svenska"
   site_name: "Security Without Borders"
   follow_us: "Följ oss på Twitter på %{twitter}"
   subscribe: "eller prenumerera på vårat <a href=\"%{newsletter}\">nyhetsbrev</a>."

@@ -1,4 +1,5 @@
 nl:
+  language_name: "Nederlands"
   site_name: "Security Without Borders"
   follow_us: "Volg ons op Twitter via %{twitter}"
   subscribe: "of abonneer je op onze <a href=\"%{newsletter}\">nieuwsbrief</a>."

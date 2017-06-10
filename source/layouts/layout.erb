@@ -14,7 +14,9 @@
   <body class="<%= page_classes %>">
     <%= partial "layouts/partials/header" %>
 
-    <%= yield %>
+    <main class="group">
+      <%= yield %>
+    </main>
 
     <%= partial "layouts/partials/footer" %>
   </body>
