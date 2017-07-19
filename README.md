@@ -13,26 +13,4 @@ There are several ways to contribute to SWB at this point.
 * tell people about the initiative
 * join the [Mailing list](https://lists.securitywithoutborders.org/mailman/listinfo/swb-public)
 
-#Deployment
 
-### Setup:
-```
-$ gem install middleman
-$ bundle install
-```
-
-**Running on linux?** Install `rb-inotify`. Not needed for OS X though.
-
-```
-gem install rb-inotify
-```
-
-### Run locally:
-```
-$ bundle exec middleman server
-```
-
-### Build static site:
-```
-$ bundle exec middleman build
-```
