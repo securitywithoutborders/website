@@ -1,14 +1,17 @@
 # Setup
-The site is built using [middleman](https://middlemanapp.com/), which uses ruby. So you will need a working ruby environment. 
+The site is built using [middleman](https://middlemanapp.com/), which uses ruby.  
+
+## Linux ruby environment install
+This is how I set it up in Ubuntu 17.
 
 ```bash
-gem install middleman
-bundle install
+apt install ruby-dev ruby ruby-bundler
 ```
 
-**Running on linux?** Install `rb-inotify`. Not needed for OS X though.
+## Installing the repo dependencies
+From the repository root run the following command.
 ```bash
-gem install rb-inotify
+bundle install
 ```
 
 # Run locally:
