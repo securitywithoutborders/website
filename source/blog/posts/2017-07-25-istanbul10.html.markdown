@@ -1,0 +1,55 @@
+---
+title: "Turkey's Crackdown on Human Rights Defenders Must Stop: A Call to Action in Support of #Istanbul10"
+date: 2017-07-25 12:00 UTC
+tags: action
+image: "/images/fist.png"
+---
+
+
+On July 5<sup>th</sup>, ten human rights defenders, including two IT security consultants, were detained in Turkey while attending a workshop on holistic security.  Those arrested are held under the accusation of ['committing crime in the name of a terrorist organization without being a member.'](https://www.amnesty.org/en/latest/campaigns/2017/07/free-rights-defenders-in-turkey/) The allegation is baseless. Those falsely accused are representatives of [non-violent and well-respected organizations that focus on human rights, women's rights, and democratic participation in Turkey](http://ihd.org.tr/en/index.php/2017/07/06/human-rights-defenders-under-attack/). The training event sought to teach civil society to safely collect and communicate sensitive information about human rights violations, which is critical for protecting the privacy and livelihood of victims. Two foreign trainers – Ali Gharavi, from Sweden, and Peter Steudtner, from Germany – were in attendance to train participants on holistic security, an educational curriculum that covers information management, stress, and trauma. Last week, both [Ali and Peter were formally charged](https://www.washingtonpost.com/world/turkish-court-orders-arrest-of-six-human-rights-workers-on-terrorism-charges/2017/07/18/83f92d98-6b95-11e7-8961-ec5f3e1e2a5c_story.html?utm_term=.2bef8a6f0323) and transferred to a detention center despite widespread condemnation from Turkish human rights organizations, international civil society, and [European governments](https://www.reuters.com/article/us-turkey-security-rights-merkel-idUSKBN1A31W9). These charges are a direct affront to the information security community and should be a clarion call for technology companies to protect civil society and dissidents in Turkey. 
+
+The indefensible arrests represent only the most recent example of the repression of peaceful dissent by the Turkish government. Since an attempted coup in July 2016, the Turkish government has intensified its indiscriminate crackdown on civil society and independent media. [Journalists and human rights defenders have been arrested by the hundreds under false terrorism charges](https://www.theguardian.com/media/greenslade/2016/dec/13/turkey-has-81-of-the-worlds-259-jailed-journalists-behind-bars), and newspapers have been [censored](https://turkeyblocks.org/reports/) or [taken over](https://www.nytimes.com/2016/03/05/world/middleeast/recep-tayyip-erdogan-government-seizes-zaman-newspaper.html). One of the prime targets of the Turkish government are everyday citizens that seek to express themselves freely online through secure communications tools. Over a month ago, the Chair of Amnesty International Turkey, Taner Kiliç, was arrested simply on the basis of allegedly having installed a messaging app.
+
+The persecution of trainers and users of privacy tools under terrorism charges is illegitimate and contravenes Turkey's international human rights obligations.  In April 2013, then United Nations Special Rapporteur on Freedom of Opinion and Expression Frank La Rue asserted that encryption is protected within the International Convenant on Civil and Political Rights under the right to privacy (Article 17), writing that "[individuals should be free to use whatever technology they choose to secure their communications](http://www.ohchr.org/Documents/HRBodies/HRCouncil/RegularSession/Session23/A.HRC.23.40_EN.pdf)" without interference. Pertinent to the arrest of Ali and Peter, La Rue's successor as Special Rapporteur, David Kaye, [emphasizes](http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc) that penalizing those who distribute tools to facilitate secure online access for activists undermine the rights to privacy and freedom of expression. Their arrest is an unjustifiable interference with the responsibility of human rights defenders to protect the dignity and privacy of the people they serve, and is irreconcilable with Turkey's human rights commitments.
+
+The Turkish government's recent surveillance and censorship of dissent has often been [aided and abetted by technologies sold by Western companies](https://www.forbes.com/sites/thomasbrewster/2016/10/25/procera-francisco-partners-turkey-surveillance-erdogan/). While years ago Turkey's status as a democracy based on rule of law could have potentially excused cooperation with authorities, the recent arrests of human rights defenders and peaceful opposition make clear that the government cannot be trusted to protect the rights of its citizens. As recently as this year, well after the post-coup crackdown had started, [several European companies received licenses to sell mobile interception equipment to Turkey](https://motherboard.vice.com/en_us/article/3knypk/the-uk-granted-spy-tech-export-to-turkey-amid-massive-crackdown). Such companies can no longer hide under a self-imposed veil of naivety, they are materially contributing to the climate that currently exists in the country. The government of Turkey cannot be considered by technology and security companies as a reliable partner until it ends its campaign against civil society and independent media, including the unconditional and immediate release of Ali Gharavi and Peter Steudtner, Amnesty International staff, and all Turkish human rights defenders that have been arrested under illegitimate charges.
+ 
+Until the Turkish government demonstrates a renewed commitment to justice and human rights, we invite all our peers from the tech industry to refrain from cooperation or business that could make them complicit in abuses. Providing instruments of repression to an increasingly authoritarian state is an unconscionable act, and no responsible individual should contribute to the detoriation of democracy in Turkey. Providing access to communications platforms, defensive cybersecurity, and connectivity infrastructure is an overall positive contribution toward protecting the free and secure flow of information for all people. However, technology companies must [exercise due diligence](https://www.eff.org/deeplinks/2011/10/it%E2%80%99s-time-know-your-customer-standards-sales-surveillance-equipment) in their involvements with the Turkish government, or else they may find themselves a partner to human rights abuses. 
+
+Technology experts and employees of ICT companies are uniquely well positioned to ensure that their employers play a constructive role in Turkey, and should actively:
+
+* Reject unethical requests and refrain from providing equipment that could be used for repression;
+* Educate colleagues on the dangers of such cooperation, and encourage the company to advocate for the interests of their users with governments, international organizations, and corporate peers where possible;
+* Evaluate company platforms and operations to maximize how services can better protect users in Turkey and other challenging countries; and,
+* Call attention to the abuses and threats, both targeted against at-risk users and by companies engaging in unethical behaviors, through contacting the press or reporting to human rights organizations.
+
+The protection of fundamental rights will require international vigilance, especially from members of the technology communities that aspire to making open and secure communications available to all.
+
+Signed,
+
+Security Without Borders
+
+<iframe src="https://securitywithoutborders.org/petitions/2/form" class="petition-form" scrolling="no" frameborder="0"></iframe>
+
+<script type="text/javascript">
+var request = new XMLHttpRequest();
+request.open('GET', 'https://securitywithoutborders.org/petitions/2/signatures', true);
+
+request.onload = function() {
+    if (request.status >= 200 && request.status < 400) {   
+        var data = request.responseText; 
+        document.getElementById("signature_list").innerHTML = data;            
+    }
+};
+
+request.onerror = function(e) {
+    console.log(e);
+};
+
+request.send();
+</script>
+<h2>Signatures</h2>
+<noscript>
+    <iframe class="c-form" src="<%= petition_form_iframe_url(:petition_id) %>"></iframe>
+</noscript>
+<div id="signature_list"></div>
