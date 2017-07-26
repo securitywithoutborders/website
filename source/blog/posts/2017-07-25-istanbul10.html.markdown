@@ -33,11 +33,11 @@ Security Without Borders
 
 <h2>Sign our letter!</h2>
 <p>If you want to support this cause, please sign this open letter using the form below.</p>
-<iframe src="https://securitywithoutborders.org/petitions/2/form" class="petition-form" scrolling="no" frameborder="0"></iframe>
+<iframe src="/petitions/2/form" class="petition-form" scrolling="no" frameborder="0"></iframe>
 
 <script type="text/javascript">
 var request = new XMLHttpRequest();
-request.open('GET', 'https://securitywithoutborders.org/petitions/2/signatures', true);
+request.open('GET', '/petitions/2/signatures', true);
 
 request.onload = function() {
     if (request.status >= 200 && request.status < 400) {   
