@@ -42,6 +42,8 @@ GEM
     htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
+    jquery-middleman (3.1.2)
+      thor (>= 0.14, < 2.0)
     kramdown (1.13.1)
     libv8 (3.16.14.17)
     listen (3.0.8)
@@ -140,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  jquery-middleman
   middleman (~> 4.1)
   middleman-autoprefixer
   middleman-blog (~> 4.0)
@@ -154,4 +157,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.13.7
+   1.15.2
