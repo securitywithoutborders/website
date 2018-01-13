@@ -19,3 +19,6 @@
 
 # store your api keys etc here
 secrets
+
+# vendor directory for external packages.
+vendor
