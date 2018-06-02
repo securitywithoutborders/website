@@ -13,13 +13,13 @@
             <a href="<%= home_url %>blog.html">Blog</a>
             <a href="<%= home_url %>contact.html">Need help?</a>
         </nav>
-        <div class="flex-1 language-changer is-text-align-right">
+        <!-- <div class="flex-1 language-changer is-text-align-right">
             <a href="#"><%= t(:language_name) %></a>
             <div class="language-changer-more">
                 <% trimmed_locales.sort.each do |locale| %>
                         <a href="/<%= if locale != "en" then locale + "/" else end %><%= if I18n.locale.to_s == "en" then current_page.path else current_page.path[I18n.locale.to_s.length + 1,current_page.path.length] end %>"><%= t(:language_name,locale: locale) %></a>
                 <% end %>
             </div>
-        </div>
+        </div> -->
     </div>
 </header>
