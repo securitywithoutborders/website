@@ -32,4 +32,4 @@ gem "middleman-favicon-maker", "~> 4.0"
 
 gem "middleman-blog", "~> 4.0"
 gem "builder", "~> 3.0"
-gem "nokogiri"
+gem "nokogiri", "~> 1.8.2"
