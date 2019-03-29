@@ -11,6 +11,8 @@ page '/*.txt', layout: false
 
 page '*code-of-conduct.html', layout: 'layout-markdown'
 
+page '/resources/*', layout: 'layout-markdown'
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -19,22 +21,25 @@ page '*code-of-conduct.html', layout: 'layout-markdown'
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true
+set :markdown_engine, :redcarpet
 
 # Internationalization
 activate :i18n, :mount_at_root => :en
 
 # Easy
 activate :autoprefixer
+activate :syntax
 
 activate :blog do |blog|
 
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
-  
+
   # set options on blog
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  
+
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "layouts/blog-post"
   # blog.summary_separator = /(READMORE)/
@@ -52,6 +57,7 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 10
   blog.page_link = "page/{num}"
+  blog.publish_future_dated = true
 end
 
 
@@ -94,7 +100,7 @@ configure :build do
   # Minify CSS on build
   activate :minify_css
   activate :minify_html
-  
+
   # Minify Javascript on build
   # activate :minify_javascript
 
@@ -113,4 +119,3 @@ configure :build do
     }
   end
 end
-

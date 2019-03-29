@@ -3,11 +3,12 @@
 ---------------------- */
 
 body {
-	font-family: Arial;
+	font-family:"Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
 	background-color: #000;
+	color: #22292F;
 }
 
 // main, header, footer {
@@ -24,17 +25,20 @@ body {
 }
 
 /* Links */
-a {
-    // color: #2196F3;
-	color: #000;
+a, a:visited {
+    color: #CC1F1A;
+}
+a:hover {
+    color: #EF5753;
 }
 
+
 p a {
-    font-weight: bold;
+    // font-weight: bold;
 }
 
 a.call-to-action:hover {
-	background-color: #f00f58;
+	background-color: #EF5753;
 }
 
 /* Header */
@@ -71,6 +75,16 @@ footer {
 
 .footer-content {
 	padding: 0 5% 2em;
+    font-size: 14px;
+
+    a:link, a:visited {
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        text-decoration: none;
+        font-weight: bold;
+    }
 }
 
 header::after,
@@ -136,14 +150,14 @@ header a:hover {
 
 /* Navigation */
 nav a {
-	border-bottom: 2px solid #f0c80f;
+	border-bottom: 2px solid #FFED4A;
 	margin-right: -5px;
 	padding: 20px 40px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	border-bottom-color: #f00f58;
+	border-bottom-color: #EF5753;
 }
 
 #volunteer-section .text-container {
@@ -233,5 +247,14 @@ nav a:hover {
     border-left: 10px solid #ccc;
     font-size: 25px;
     color: #333;
+    font-style: italic;
+}
+
+blockquote {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    padding-left: 15px;
+    border-left: 10px solid #DAE1E7;
     font-style: italic;
 }
