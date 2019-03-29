@@ -176,7 +176,7 @@ After download, *Exodus One* would dynamically load and execute the primary stag
 
 Of the various binaries downloaded, the most interesting are `null`, which serves as a local and reverse shell, and `rootdaemon`, which takes care of privilege escalation and data acquisition. `rootdaemon` will first attempt to jailbreak the device using a modified version of the DirtyCow exploit.
 
-Similarly to [Skygofree](https://www.hindustantimes.com/tech/skygofree-new-spyware-can-access-your-whatsapp-messages-huawei-devices-infected-as-well/story-VVv9DB7klyLHx33S2Xn7IJ.html), another Italian Android spyware discovered by Kaspersky Labs, Exodus also takes advantage of "protectedapps", a feature in Huawei phones that allows to configure power-saving options for running applications. By manipulating a SQLite database, Exodus is able to keep itself running even when the screen goes off and the application would otherwise be suspended to reduce battery consumption.
+Similarly to another Android spyware made in Italy, originally discovered by [Lukas Stefanko](https://twitter.com/LukasStefanko/status/928548460332290048) and later named [Skygofree](https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/) by Kaspersky Labs, Exodus also takes advantage of "protectedapps", a feature in Huawei phones that allows to configure power-saving options for running applications. By manipulating a SQLite database, Exodus is able to keep itself running even when the screen goes off and the application would otherwise be suspended to reduce battery consumption.
 
 ```java
 if ( !func_sqlite_loaddb((int)"/data/data/com.huawei.systemmanager/databases/Optimize.db", (int)&db_handle) )
