@@ -14,6 +14,7 @@ gem 'middleman-livereload'
 
 gem 'middleman-autoprefixer'
 gem 'middleman-minify-html'
+gem 'middleman-syntax'
 
 
 # For linux folks, need a JS runtime
@@ -33,3 +34,5 @@ gem "middleman-favicon-maker", "~> 4.0"
 gem "middleman-blog", "~> 4.0"
 gem "builder", "~> 3.0"
 gem "nokogiri", "~> 1.8.2"
+
+gem "less"

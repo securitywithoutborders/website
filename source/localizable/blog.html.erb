@@ -11,7 +11,7 @@ per_page: 5
                     &nbsp;
                 </div>
                 <div class="two-thirds column">
-                    <h2>Blog</h2>                                 
+                    <h2><i class="fas fa-newspaper"></i> Blog</h2>                                 
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@ per_page: 5
                             <h4><%= link_to article.title, article %></h4>
                             <!-- use article.summary(250) if you have Nokogiri available to show just
                                 the first 250 characters -->
-                            <%= article.summary(500) %><%= link_to 'Continue reading', article %>
+                            <div class="blog-post-summary"><%= article.summary(500) %><%= link_to 'Continue reading', article %></div>
                         </div>
                     </div>                    
                 <% end %>
@@ -45,10 +45,10 @@ per_page: 5
 
                         <p>
                         <% if prev_page %>
-                            <%= link_to '<< Previous page', prev_page %>
+                            <%= link_to '<i class="fas fa-angle-double-left"></i> Previous page', prev_page %>
                         <% end %>
                         <% if next_page %>
-                            <%= link_to 'Next page >>', next_page %>
+                            <%= link_to 'Next page <i class="fas fa-angle-double-right"></i>', next_page %>
                         <% end %>
                         </p>
                     <% end %>                                  

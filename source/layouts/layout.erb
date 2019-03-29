@@ -1,23 +1,33 @@
 <!doctype html>
 <html lang="<%= I18n.locale %>">
-  <head>
+<head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="icon" type="image/ico" href="favicon.ico" />
+
+    <link rel="stylesheet" href="/fonts/fontawesome/css/all.css">
     <title><%= t(:site_name) %></title>
-
     <%= stylesheet_link_tag :site %>
-  </head>
+    <style>
+    @font-face {
+        font-family: "Roboto Slab";
+        src: url("/fonts/roboto/RobotoSlab-Regular.ttf") format("truetype");
+    }
+    h1, h2, h3, h4 {
+        font-family: "Roboto Slab", serif;
+    }
+    </style>
+</head>
 
-  <body class="<%= page_classes %>">
+<body class="<%= page_classes %>">
     <%= partial "layouts/partials/header" %>
 
     <main class="group">
-      <%= yield %>
+    <%= yield %>
     </main>
 
     <%= partial "layouts/partials/footer" %>
-  </body>
+</body>
 </html>

@@ -11,6 +11,8 @@ page '/*.txt', layout: false
 
 page '*code-of-conduct.html', layout: 'layout-markdown'
 
+page '/resources/*', layout: 'layout-markdown'
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -19,12 +21,15 @@ page '*code-of-conduct.html', layout: 'layout-markdown'
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true
+set :markdown_engine, :redcarpet
 
 # Internationalization
 activate :i18n, :mount_at_root => :en
 
 # Easy
 activate :autoprefixer
+activate :syntax
 
 activate :blog do |blog|
 
@@ -52,6 +57,7 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 10
   blog.page_link = "page/{num}"
+  blog.publish_future_dated = true
 end
 
 

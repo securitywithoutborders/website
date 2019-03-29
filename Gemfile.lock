@@ -16,6 +16,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
+    commonjs (0.2.7)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.5)
@@ -43,6 +44,8 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     kramdown (1.16.2)
+    less (2.6.0)
+      commonjs (~> 0.2.7)
     libv8 (3.16.14.19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -98,6 +101,9 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-syntax (3.0.0)
+      middleman-core (>= 3.2)
+      rouge (~> 2.0)
     mini_portile2 (2.3.0)
     minitest (5.11.1)
     nokogiri (1.8.4)
@@ -119,6 +125,7 @@ GEM
       ffi (>= 0.5.0, < 2)
     redcarpet (3.4.0)
     ref (2.0.0)
+    rouge (2.2.1)
     sass (3.4.25)
     scss_lint (0.55.0)
       rake (>= 0.9, < 13)
@@ -141,12 +148,14 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  less
   middleman (~> 4.1)
   middleman-autoprefixer
   middleman-blog (~> 4.0)
   middleman-favicon-maker (~> 4.0)
   middleman-livereload
   middleman-minify-html
+  middleman-syntax
   nokogiri (~> 1.8.2)
   redcarpet (~> 3.3, >= 3.3.3)
   scss_lint
@@ -155,4 +164,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
