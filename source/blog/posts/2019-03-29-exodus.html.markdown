@@ -5,7 +5,7 @@ tags: action
 image: "/images/keyboard.jpg"
 ---
 
-[Clicca qui per la versione in Italiano]()
+[Clicca qui per la versione in Italiano](https://securitywithoutborders.org/blog/2019/03/29/exodus-ita.html)
 
 *Disclaimer: this research was conducted by members and associates of Security Without Borders, independently of any other affiliation or employer.*
 
