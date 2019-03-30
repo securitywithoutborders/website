@@ -107,7 +107,7 @@ stringBuilder2.append(deviceId);
 subscriberId = stringBuilder2.toString();
 ```
 
-Infine, la richiesta HTTP è mandata al server `https://54.71.249.137/eddd0317-2bdc-4140-86cb-0e8d7047b874`. Molte delle stringhe nell'applicazione sono XORate con la chiave `Kjk1MmphFG`:
+Infine, la richiesta HTTP è mandata al server `https://54.71.249.137/eddd0317-2bdc-4140-86cb-0e8d7047b874`. Molte delle stringhe nell'applicazione sono offuscate con XOR con la chiave `Kjk1MmphFG`:
 
 ```java
 StringBuilder stringBuilder3 = new StringBuilder();
@@ -175,7 +175,7 @@ Dopo il download, *Exodus One* carica dinamicamente ed esegue il payload primari
 
 Dei vari binari scaricati, i più interessanti sono `null`, che funge da terminale locale e remoto, e `rootdaemon`, che si occupa dell'escalation dei privilegi e dell'acquisizione dati. Il `rootdaemon` tenterà in primo luogo un jailbreak del dispositivo usando una versione modificata dell'exploit DirtyCow.
 
-Analogamente ad un altro spyware Android di fattura Italiana, originariamente scoperto da [Lukas Stefanko](https://twitter.com/LukasStefanko/status/928548460332290048) e più tardi nominato [Skygofree](https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/) da Kaspersky Labs, anche Exodus si avvale di "protectedapps", una caratteristica dei telefoni Huawei che permette di configurare opzioni di risparmio energetico per le applicazioni in esecuzione. Manipolando un database SQLite, Exodus è in grado di mantenersi in funzione anche quando lo schermo si spegne e l'applicazione verrebbe altrimenti sospesa per ridurre il consumo della batteria.
+Analogamente ad un altro spyware Android di fattura Italiana, originariamente scoperto da [Lukas Stefanko](https://twitter.com/LukasStefanko/status/928548460332290048) e più tardi nominato [Skygofree](https://securelist.com/skygofree-following-in-the-footsteps-of-hackingteam/83603/) ed analizzato nel dettaglio da Kaspersky Labs, anche Exodus si avvale di "protectedapps", una caratteristica dei telefoni Huawei che permette di configurare opzioni di risparmio energetico per le applicazioni in esecuzione. Manipolando un database SQLite, Exodus è in grado di mantenersi in funzione anche quando lo schermo si spegne e l'applicazione verrebbe altrimenti sospesa per ridurre il consumo della batteria.
 
 ```java
 if ( !func_sqlite_loaddb((int)"/data/data/com.huawei.systemmanager/databases/Optimize.db", (int)&db_handle) )
