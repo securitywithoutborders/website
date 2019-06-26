@@ -21,6 +21,9 @@ function generateHtmlTable(data) {
         return null;
     }
 
+    data.shift();
+    data = data.reverse();
+
     var html = "<table class=\"table w-full\">\n";
     html += "<tr>\n";
     html += "<th>Date</th>\n";
@@ -30,10 +33,6 @@ function generateHtmlTable(data) {
     html += "</tr>\n";
 
     $.each(data, function(index, row) {
-        if (index == 0) {
-            return true;
-        }
-
         html += "<tr>\n";
         html += "<td>" + row[0] + "-" + row[1] + "-" + row[2] + "</td>\n";
         html += "<td><a href=\"" + row[5] + "\">" + row[4] + "</a></td>\n";
