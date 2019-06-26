@@ -1,0 +1,48 @@
+<h1><i class="fas fa-book"></i> Reports on Targeted Surveillance of Civil Society</h1>
+
+<p>This is a somewhat comprehensive list of reports published by a number of organizations and individuals, that expose the use of targeted surveillance of members of civil society. This list is in chronological order, from older to most recent.</p>
+
+<div id="reports-list"></div>
+
+<script>
+var data;
+$.ajax({
+    type: "GET",  
+    url: "https://raw.githubusercontent.com/botherder/targetedthreats/master/reports.csv",
+    dataType: "text",       
+    success: function(response) {
+        data = $.csv.toArrays(response);
+        generateHtmlTable(data);
+    }   
+});
+
+function generateHtmlTable(data) {
+    if (typeof(data[0]) === "undefined") {
+        return null;
+    }
+
+    var html = "<table class=\"table w-full\">\n";
+    html += "<tr>\n";
+    html += "<th>Date</th>\n";
+    html += "<th>Report</th>\n";
+    html += "<th>Author</th>\n";
+    html += "<th>Countries</th>\n";
+    html += "</tr>\n";
+
+    $.each(data, function(index, row) {
+        if (index == 0) {
+            return true;
+        }
+
+        html += "<tr>\n";
+        html += "<td>" + row[0] + "-" + row[1] + "-" + row[2] + "</td>\n";
+        html += "<td><a href=\"" + row[5] + "\">" + row[4] + "</a></td>\n";
+        html += "<td>" + row[3] + "</td>\n";
+        html += "<td>" + row[6] + "</td>\n";
+        html += "</tr>\n";
+    });
+
+    html += "</table>";
+    $("#reports-list").append(html);
+}
+</script>
