@@ -1,19 +1,19 @@
 /* ---------------------
-	SWB CSS BSE
+    SWB CSS BSE
 ---------------------- */
 
 body {
-	font-family:"Open Sans", sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	background-color: #000;
-	color: #22292F;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #000;
+    color: #22292F;
 }
 
 // main, header, footer {
-// 	max-width: 1440px;
-// 	margin: 0 auto;
+//     max-width: 1440px;
+//     margin: 0 auto;
 // }
 
 
@@ -38,43 +38,43 @@ p a {
 }
 
 a.call-to-action:hover {
-	background-color: #EF5753;
+    background-color: #EF5753;
 }
 
 /* Header */
 .flex {
-	display: flex;
+    display: flex;
 }
 
 .right-to-left {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .flex-2 {
-	flex-grow: 2;
+    flex-grow: 2;
 }
 
 header {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 footer {
-	position: relative;
-	background-color: #000;
+    position: relative;
+    background-color: #000;
 }
 
 .header-content,
 .footer-content {
-	position: relative;
-	z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .header-content {
-	padding: 2em 5% 0;
+    padding: 2em 5% 0;
 }
 
 .footer-content {
-	padding: 0 5% 2em;
+    padding: 0 5% 2em;
     font-size: 14px;
 
     a:link, a:visited {
@@ -89,123 +89,123 @@ footer {
 
 header::after,
 footer::before {
-	background: #000;
+    background: #000;
 }
 
 header::after {
-	height: 30vw;
-	 -webkit-transform: skewY(-5deg) translateY(-30.0vw);
+    height: 30vw;
+     -webkit-transform: skewY(-5deg) translateY(-30.0vw);
     -ms-transform: skewY(-5deg) translateY(-30.0vw);
     transform: skewY(-5deg) translateY(-30.0vw);
-	content: '';
+    content: '';
     display: block;
     position: absolute;
     width: 100%;
-	z-index: 1;
+    z-index: 1;
 }
 
 header {
-	// background-color: #000;
+    // background-color: #000;
 }
 
 // footer::before {
-// 	// position: absolute;
+//     // position: absolute;
 //     // transform: skewY(-5deg) translateY(-4em);
-// 	// 	-webkit-transform: skewY(-5deg) translateY(-4em);
-// 	// 	-ms-transform: skewY(-5deg) translateY(-4em);
+//     //     -webkit-transform: skewY(-5deg) translateY(-4em);
+//     //     -ms-transform: skewY(-5deg) translateY(-4em);
 // }
 
 header a:hover {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 .logo {
-	height: 125px;
+    height: 125px;
 }
 
 /* Language changer */
 .language-changer a {
-	background: url('../images/globe-icon.png') no-repeat top right;
-	background-size: 25px;
+    background: url('../images/globe-icon.png') no-repeat top right;
+    background-size: 25px;
     padding: 4px 35px 25px 0;
     text-decoration: none;
 }
 
 .language-changer .language-changer-more {
-	display: none;
-	z-index: 2;
+    display: none;
+    z-index: 2;
 }
 
 .language-changer:hover .language-changer-more {
-	display: block;
-	position: absolute;
-	background-color: #000;
+    display: block;
+    position: absolute;
+    background-color: #000;
 }
 
 .language-changer .language-changer-more a {
-	background-image: none;
-	display: block;
-	padding-bottom: 0;
+    background-image: none;
+    display: block;
+    padding-bottom: 0;
 }
 
 /* Navigation */
 nav a {
-	border-bottom: 2px solid #FFED4A;
-	margin-right: -5px;
-	padding: 20px 40px;
-	text-decoration: none;
+    border-bottom: 2px solid #FFED4A;
+    margin-right: -5px;
+    padding: 20px 40px;
+    text-decoration: none;
 }
 
 nav a:hover {
-	border-bottom-color: #EF5753;
+    border-bottom-color: #EF5753;
 }
 
 #volunteer-section .text-container {
-	padding-top: 3em;
+    padding-top: 3em;
 }
 
 #volunteer-section {
-	background-color: #009933;
+    background-color: #009933;
 }
 
 
 #volunteer-section .image-container {
-	background-image: url("/images/keyboard.jpg");
+    background-image: url("/images/keyboard.jpg");
 }
 
 #request-section .image-container {
-	background-image: url("/images/demonstration.jpg");
-	background-repeat: repeat-y;
+    background-image: url("/images/demonstration.jpg");
+    background-repeat: repeat-y;
 }
 
 .main-container {
-	min-height: 700px;
-	padding: 100px 50px 150px 50px;
+    min-height: 700px;
+    padding: 100px 50px 150px 50px;
 }
 
 .image-core-team {
-	max-height: 200px;
-	border-radius: 50%;
-	filter: grayscale(100%);
+    max-height: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);
 }
 
 .mission-img {
-	// max-width:100%;
-	// max-height:100%;
-	object-fit: contain;
-	width: 90%;
+    // max-width:100%;
+    // max-height:100%;
+    object-fit: contain;
+    width: 90%;
 }
 
 .mission {
-	margin-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 .v-form {
-	height: 2200px;
+    height: 2200px;
 }
 
 .c-form {
-	height: 1500px;
+    height: 1500px;
 }
 
 // Skeleton-alerts

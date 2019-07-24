@@ -1,5 +1,5 @@
 /* ---------------------
-	SWB CSS LAYOUT
+    SWB CSS LAYOUT
 ---------------------- */
 
 /*Clearfix all groups */
@@ -11,27 +11,27 @@
 
 /* Size */
 .l-full-size {
-	width: 100%;
+    width: 100%;
 }
 
 .l-half-size {
-	overflow: hidden;
-	width: 40%;
+    overflow: hidden;
+    width: 40%;
 }
 
 .l-half-size.l-float-left + .l-half-size.l-float-left {
-	margin-left: 10%;
+    margin-left: 10%;
 }
 
 .l-half-size.l-float-right + .l-half-size.l-float-right {
-	margin-right: 10%;
+    margin-right: 10%;
 }
 
 /* FLoat */
 .l-float-left {
-	float: left;
+    float: left;
 }
 
 .l-float-right {
-	float: right;
+    float: right;
 }

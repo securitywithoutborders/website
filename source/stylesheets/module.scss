@@ -1,24 +1,24 @@
 /* ---------------------
-	SWB CSS MODULE
+    SWB CSS MODULE
 ---------------------- */
 /* Image container */
 .image-container {
-	position: relative;
+    position: relative;
 }
 
 /* Article */
 .first .article-content {
-	padding-top: 6em;
+    padding-top: 6em;
 }
 
 .article-content {
-	position: relative;
+    position: relative;
 }
 
 .article-content {
     margin: 0 auto;
     max-width: 650px;
-	padding: 1em 5% 6em;
+    padding: 1em 5% 6em;
     position: relative;
 }
 
@@ -28,14 +28,14 @@
 
 /* Image */
 .image-container {
-	overflow: hidden; 
-	width: 600px;
+    overflow: hidden; 
+    width: 600px;
     min-height: 650px;
 }
 
 /* Call to action */
 .call-to-action {
-	color: #000 !important;
+    color: #000 !important;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,17 +44,17 @@
 
 #volunteer-section .call-to-action,
 #request-section .call-to-action {
-        position: absolute;
-		top: 250px;
-		right: 100px;
+    position: absolute;
+    top: 250px;
+    right: 100px;
 }
 
 .l-float-left .call-to-action {
-	left: 20%;
+    left: 20%;
 }
 
 .l-float-right .call-to-action {
-	right: 20%;
+    right: 20%;
 }
 
 .skew.skew-before::before,
@@ -69,7 +69,7 @@
 .skew.skew-before::before {
     -webkit-transform: skewY(-5deg) translateY(-5vw);
     -ms-transform: skewY(-5deg) translateY(-5vw);
-      transform: skewY(-5deg) translateY(-5vw);
+    transform: skewY(-5deg) translateY(-5vw);
 }
 
 .skew.skew-after::after {

@@ -1,24 +1,24 @@
 /* ---------------------
-	SWB CSS STATE
+    SWB CSS STATE
 ---------------------- */
 
 /* Colors */
 .is-bg-green,
 .is-bg-green::before {
-	background-color: #009933;
+    background-color: #009933;
 }
 
 .is-bg-yellow {
-	background-color: #FFED4A;
+    background-color: #FFED4A;
 }
 
 .is-bg-white,
 .is-bg-white::before {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .is-bg-black {
-	background-color: #000;
+    background-color: #000;
 }
 
 .is-text-white > *,
@@ -27,14 +27,14 @@
 .is-bg-black a,
 .is-bg-green > * ,
 .is-bg-green a {
-	color: #fff;
+    color: #fff;
 }
 
 /* Text */
 .is-text-align-right {
-	text-align: right;
+    text-align: right;
 }
 
 .is-text-align-center {
-	text-align: center;
+    text-align: center;
 }
