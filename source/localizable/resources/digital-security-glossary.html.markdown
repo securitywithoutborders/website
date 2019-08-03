@@ -1,5 +1,7 @@
 # Digital Security Glossary
 
+This glossary is intended to help non-technical readers to understand digital security educational material, [technical reports](https://securitywithoutborders.org/resources/targeted-surveillance-reports.html), and news article. You can send additions and modifications through our [GitHub repository](https://github.com/securitywithoutborders/website/blob/master/source/localizable/resources/digital-security-glossary.html.markdown).
+
 - [Command & Control (C&C, or C2)](#cnc)
 - [Distributed Denial of Service (DDoS)](#ddos)
 - [Domain Name](#domain)
