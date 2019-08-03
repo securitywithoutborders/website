@@ -5,7 +5,7 @@
 - [Domain Name](#domain)
 - [Exploit](#exploit)
 - [Malware](#malware)
-- [Indicators of Compromise (or just Indicators)](#ioc])
+- [Indicators of Compromise (or just Indicators)](#ioc)
 - [IP Address](#ip)
 - [OAuth](#oauth)
 - [Phishing](#phishing)
