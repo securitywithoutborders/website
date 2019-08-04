@@ -35,7 +35,7 @@ An Exploit is a software, or a command, or otherwise some data, that leverage a 
 Malicious software designed to perform some unwanted activity on the victim's infected device. The type of activity performed by malware can be various: from intercepting communications, to collecting banking credentials, to absing the computing power of the device.
 
 ### <a name="ioc"></a>Indicators of Compromise (or just Indicators)
-Indicators of Compromise (IOC or IoC), or more simply *Indicators*, are pieces of information that indicative of a particular attack. For examples, indicators can be email addresses, [Domain Names](#domain) or [IP Addresses](#ip). Security researchers investigating an attack commonly collect such indicators and share them with the wider community, for example in order to implement detections in security products.
+Indicators of Compromise (IOC or IoC), or more simply *Indicators*, are pieces of information that are indicative of a particular attack. For example, indicators can be email addresses, [Domain Names](#domain) or [IP Addresses](#ip). Security researchers investigating an attack commonly collect such indicators and share them with the wider community, for example in order to implement detections in security products.
 
 ### <a name="ip"></a>IP Address
 An IP Address is a numerical addresses used to identify computers over a network, such as the open Internet. An IP Address, for example, can be *1.1.1.1* or *216.56.200.48*. Because IP Addresses are typically hard to memorize, [Domain Names](#domain) are often registered to resolve to a particular IP Address.
