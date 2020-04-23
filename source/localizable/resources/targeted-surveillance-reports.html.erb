@@ -35,6 +35,9 @@ function generateHtmlTable(data) {
     html += "</tr>\n";
 
     $.each(data, function(index, row) {
+        if (row[5] == undefined)
+            continue;
+
         html += "<tr>\n";
         html += "<td>" + row[0] + "-" + row[1] + "-" + row[2] + "</td>\n";
         html += "<td><a href=\"" + row[5] + "\">" + row[4] + "</a></td>\n";
