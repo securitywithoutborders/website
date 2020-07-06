@@ -9,6 +9,6 @@ A couple of years ago we started a project called [Hardentools](https://github.c
 
 Today, [we have released version 2.0](https://github.com/securitywithoutborders/hardentools/releases/tag/v2.0), which comes with a lot of improvements and internal refactoring since the original 1.0 release. Most visibly, Hardentools comes with a new graphical user interface.
 
-![](/images/tools/hardentools/image3.png)
+![](https://github.com/securitywithoutborders/hardentools/raw/master/graphics/MainWindowExpert.png)
 
 Special thanks to [Florian Probst](https://github.com/obsti8383), who has been steering most of the development in Hardentools recently.
