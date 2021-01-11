@@ -19,7 +19,7 @@ gem 'middleman-syntax'
 
 # For linux folks, need a JS runtime
 gem 'therubyracer'
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '~> 3.5'
 
 # Nice Sass style linting in your editor, if you enable it. Stops bad CSS.
 # https://github.com/brigade/scss-lint/
