@@ -33,6 +33,6 @@ gem "middleman-favicon-maker", "~> 4.0"
 
 gem "middleman-blog", "~> 4.0"
 gem "builder", "~> 3.0"
-gem "nokogiri", "~> 1.11.0"
+gem "nokogiri", "~> 1.11.4"
 
 gem "less"
